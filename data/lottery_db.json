@@ -1,0 +1,3360 @@
+{
+  "users": [
+    {
+      "id": "usr-superadmin",
+      "username": "superadmin",
+      "passwordHash": "4e4c56e4a15f89f05c2f4c72613da2a18c9665d4f0d6acce16415eb06f9be776",
+      "role": "SUPER_ADMIN",
+      "name": "Súper Administrador",
+      "active": true,
+      "createdAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "usr-admin",
+      "username": "admin",
+      "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "role": "ADMIN",
+      "name": "Administrador Central",
+      "active": true,
+      "createdAt": "2026-09-26T19:42:43.091Z",
+      "consorcioId": "c-1230",
+      "adminPermissions": {
+        "dashboard": true,
+        "ventas": true,
+        "tickets": true,
+        "sorteos": true,
+        "resultados": true,
+        "ganadores": true,
+        "pagoPremios": true,
+        "bancas": true,
+        "terminales": true,
+        "usuarios": true,
+        "supervisores": true,
+        "colectores": true,
+        "grupos": true,
+        "topes": true,
+        "reportes": true,
+        "cuadres": true,
+        "comisiones": true,
+        "anulaciones": true,
+        "devoluciones": true,
+        "loterias": true,
+        "configuracionConsorcio": true,
+        "configuracionPremios": true,
+        "configuracionSistema": false
+      }
+    },
+    {
+      "id": "usr-term-1001",
+      "username": "1001",
+      "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "role": "TERMINAL",
+      "name": "Banca Central 1001",
+      "terminalCode": "1001",
+      "active": true,
+      "createdAt": "2026-09-26T19:42:43.091Z",
+      "consorcioId": "c-1230"
+    },
+    {
+      "id": "usr-term-1002",
+      "username": "1002",
+      "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "role": "TERMINAL",
+      "name": "Banca Sucursal 1002",
+      "terminalCode": "1002",
+      "active": true,
+      "createdAt": "2026-09-26T19:42:43.091Z",
+      "consorcioId": "c-1230"
+    },
+    {
+      "id": "usr-admin-salomon",
+      "username": "salomon",
+      "passwordHash": "e52f46c926bb1db918207ec0a1566ed1ab27acaa0309db07a735a1df431acb93",
+      "role": "ADMIN",
+      "name": "Consorcio de Bancas Salomón",
+      "consorcioId": "c-1230",
+      "active": true,
+      "createdAt": "2026-09-01T08:00:00.000Z",
+      "adminPermissions": {
+        "dashboard": true,
+        "ventas": true,
+        "tickets": true,
+        "sorteos": true,
+        "resultados": true,
+        "ganadores": true,
+        "pagoPremios": true,
+        "bancas": true,
+        "terminales": true,
+        "usuarios": true,
+        "supervisores": true,
+        "colectores": true,
+        "grupos": true,
+        "topes": true,
+        "reportes": true,
+        "cuadres": true,
+        "comisiones": true,
+        "anulaciones": true,
+        "devoluciones": true,
+        "loterias": true,
+        "configuracionConsorcio": true,
+        "configuracionPremios": true,
+        "configuracionSistema": false
+      }
+    },
+    {
+      "id": "usr-term-0001",
+      "username": "0001",
+      "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "role": "TERMINAL",
+      "name": "Banca Salomón #0001",
+      "terminalCode": "0001",
+      "consorcioId": "c-1230",
+      "active": true,
+      "createdAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "usr-term-0002",
+      "username": "0002",
+      "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "role": "TERMINAL",
+      "name": "Banca Salomón #0002",
+      "terminalCode": "0002",
+      "consorcioId": "c-1230",
+      "active": true,
+      "createdAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "usr-term-0003",
+      "username": "0003",
+      "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "role": "TERMINAL",
+      "name": "Banca Salomón #0003",
+      "terminalCode": "0003",
+      "consorcioId": "c-1230",
+      "active": true,
+      "createdAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "usr-term-0004",
+      "username": "0004",
+      "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "role": "TERMINAL",
+      "name": "Banca Salomón #0004",
+      "terminalCode": "0004",
+      "consorcioId": "c-1230",
+      "active": true,
+      "createdAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "usr-term-0005",
+      "username": "0005",
+      "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "role": "TERMINAL",
+      "name": "Banca Salomón #0005",
+      "terminalCode": "0005",
+      "consorcioId": "c-1230",
+      "active": true,
+      "createdAt": "2026-09-01T08:00:00.000Z"
+    }
+  ],
+  "terminals": [
+    {
+      "id": "term-1001",
+      "code": "1001",
+      "name": "Banca Central #1001",
+      "location": "Av. 27 de Febrero, Santo Domingo",
+      "username": "1001",
+      "active": true,
+      "balanceLimit": 100000,
+      "contactPhone": "(809) 555-1001",
+      "createdAt": "2026-09-26T19:42:43.091Z",
+      "consorcioId": "c-1230",
+      "deviceId": "DEV-SMUF-XM4C",
+      "appVersion": "v1.1.0",
+      "updatedAtVersion": "2026-09-28T07:15:00.000Z",
+      "terminalType": "PC",
+      "activationCode": "ACT-1001-PC99"
+    },
+    {
+      "id": "term-1002",
+      "code": "1002",
+      "name": "Banca Sucursal #1002",
+      "location": "Calle El Conde, Zona Colonial",
+      "username": "1002",
+      "active": true,
+      "balanceLimit": 80000,
+      "contactPhone": "(809) 555-1002",
+      "createdAt": "2026-09-26T19:42:43.091Z",
+      "consorcioId": "c-1230",
+      "appVersion": "v1.0.0",
+      "terminalType": "MOVIL",
+      "activationCode": "ACT-ST01-WFGA",
+      "deviceId": "DEV-SMUF-XM4C"
+    },
+    {
+      "id": "term-0001",
+      "code": "0001",
+      "name": "Banca Salomón #0001",
+      "location": "Av. 27 de Febrero esq. Lincoln, Santo Domingo",
+      "username": "0001",
+      "consorcioId": "c-1230",
+      "deviceId": "DEV-8F42-K29X",
+      "active": true,
+      "balanceLimit": 100000,
+      "contactPhone": "(809) 555-0001",
+      "createdAt": "2026-09-01T08:00:00.000Z",
+      "groupId": "grp-centro",
+      "appVersion": "v1.1.0",
+      "updatedAtVersion": "2026-09-28T07:15:00.000Z",
+      "terminalType": "PC",
+      "activationCode": "ACT-0001-PC99"
+    },
+    {
+      "id": "term-0002",
+      "code": "0002",
+      "name": "Banca Salomón #0002",
+      "location": "Calle El Conde #45, Zona Colonial",
+      "username": "0002",
+      "consorcioId": "c-1230",
+      "active": true,
+      "balanceLimit": 80000,
+      "contactPhone": "(809) 555-0002",
+      "createdAt": "2026-09-01T08:00:00.000Z",
+      "groupId": "grp-centro",
+      "appVersion": "v1.0.0",
+      "lastUpdateCheckAt": "2026-09-28T14:48:03.473Z",
+      "deviceId": "123D123400",
+      "terminalType": "MOVIL",
+      "activationCode": "ACT-0002-MV88"
+    },
+    {
+      "id": "term-0003",
+      "code": "0003",
+      "name": "Banca Salomón #0003",
+      "location": "Av. San Vicente de Paúl, Santo Domingo Este",
+      "username": "0003",
+      "consorcioId": "c-1230",
+      "active": true,
+      "balanceLimit": 80000,
+      "contactPhone": "(809) 555-0003",
+      "createdAt": "2026-09-01T08:00:00.000Z",
+      "groupId": "grp-centro",
+      "appVersion": "v1.1.0",
+      "updatedAtVersion": "2026-09-28T07:15:00.000Z",
+      "deviceId": "DEV-F9HY-LB37",
+      "terminalType": "PC",
+      "activationCode": "ACT-LB37-6UBK"
+    },
+    {
+      "id": "term-0004",
+      "code": "0004",
+      "name": "Banca Salomón #0004",
+      "location": "Autopista Las Américas Km 10",
+      "username": "0004",
+      "consorcioId": "c-1230",
+      "active": true,
+      "balanceLimit": 75000,
+      "contactPhone": "(809) 555-0004",
+      "createdAt": "2026-09-01T08:00:00.000Z",
+      "appVersion": "v1.0.0",
+      "terminalType": "MOVIL",
+      "activationCode": "ACT-0004-MV99"
+    },
+    {
+      "id": "term-0005",
+      "code": "0005",
+      "name": "Banca Salomón #0005",
+      "location": "Av. Charles de Gaulle, Villa Mella",
+      "username": "0005",
+      "consorcioId": "c-1230",
+      "active": true,
+      "balanceLimit": 75000,
+      "contactPhone": "(809) 555-0005",
+      "createdAt": "2026-09-01T08:00:00.000Z",
+      "appVersion": "v1.0.0",
+      "terminalType": "PC",
+      "activationCode": "ACT-STPC-QRRJ",
+      "deviceId": "DEV-TEST-PC"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "lot-primera-noc",
+      "name": "LA PRIMERA NOCHE",
+      "code": "P1-NOC",
+      "drawTime": "11:59 PM",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#EA580C",
+      "openTime": "00:00 AM",
+      "closeTime": "11:59 PM"
+    },
+    {
+      "id": "lot-georgia-tar",
+      "name": "GEORGIA TARDE",
+      "code": "GEO-TAR",
+      "drawTime": "06:49:00 PM",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#F59E0B",
+      "openTime": "07:00 AM",
+      "closeTime": "06:49 PM"
+    },
+    {
+      "id": "lot-haiti-630",
+      "name": "HAITI BOLET 06:30 PM",
+      "code": "HAI-630",
+      "drawTime": "06:20:00 PM",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#4F46E5",
+      "openTime": "07:00 AM",
+      "closeTime": "06:20 PM"
+    },
+    {
+      "id": "lot-quinielota",
+      "name": "QUINIELOTA 6PM",
+      "code": "QLOTA-6",
+      "drawTime": "05:55:00 PM",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#8B5CF6",
+      "openTime": "07:00 AM",
+      "closeTime": "05:55 PM"
+    },
+    {
+      "id": "lot-anguila-6",
+      "name": "ANGUILA 6:00 PM",
+      "code": "ANG-6",
+      "drawTime": "05:55:00 PM",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#0284C7",
+      "openTime": "07:00 AM",
+      "closeTime": "05:55 PM"
+    },
+    {
+      "id": "lot-anguila-5",
+      "name": "ANGUILA 5:00 PM",
+      "code": "ANG-5",
+      "drawTime": "16:55:00",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#0EA5E9",
+      "openTime": "07:00 AM",
+      "closeTime": "04:55 PM"
+    },
+    {
+      "id": "lot-haiti-530",
+      "name": "HAITI BOLET 05:30 PM",
+      "code": "HAI-530",
+      "drawTime": "17:25:00",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#F59E0B",
+      "openTime": "07:00 AM",
+      "closeTime": "05:20 PM"
+    },
+    {
+      "id": "lot-suerte-noche",
+      "name": "LA SUERTE NOCHE",
+      "code": "SUE-NOC",
+      "drawTime": "17:55:00",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#8B5CF6",
+      "openTime": "07:00 AM",
+      "closeTime": "05:55 PM"
+    },
+    {
+      "id": "lot-anguila-9",
+      "name": "ANGUILA",
+      "code": "ANG-NOC",
+      "drawTime": "20:55:00",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#06B6D4",
+      "openTime": "07:00 AM",
+      "closeTime": "20:55:00"
+    },
+    {
+      "id": "lot-real",
+      "name": "REAL",
+      "code": "REAL",
+      "drawTime": "12:55 PM",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#16A34A",
+      "openTime": "07:00 AM",
+      "closeTime": "12:55 PM"
+    },
+    {
+      "id": "lot-ganamas",
+      "name": "GANA MÁS",
+      "code": "GMAS",
+      "drawTime": "14:30",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#2563EB",
+      "openTime": "07:00 AM",
+      "closeTime": "02:30 PM"
+    },
+    {
+      "id": "lot-lotedom",
+      "name": "LOTEDOM",
+      "code": "LDOM",
+      "drawTime": "13:55",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#9333EA",
+      "openTime": "07:00 AM",
+      "closeTime": "01:55 PM"
+    },
+    {
+      "id": "lot-primera-dia",
+      "name": "PRIMERA DÍA",
+      "code": "P1-DIA",
+      "drawTime": "12:00",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#EA580C",
+      "openTime": "07:00 AM",
+      "closeTime": "12:00"
+    },
+    {
+      "id": "lot-loteka",
+      "name": "LOTEKA",
+      "code": "LOTK",
+      "drawTime": "19:55",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#DC2626",
+      "openTime": "07:00 AM",
+      "closeTime": "07:55 PM"
+    },
+    {
+      "id": "lot-leidsa",
+      "name": "LEIDSA",
+      "code": "LEID",
+      "drawTime": "20:55",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#0D9488",
+      "openTime": "07:00 AM",
+      "closeTime": "08:55 PM"
+    },
+    {
+      "id": "lot-nacional",
+      "name": "NACIONAL NOCHE",
+      "code": "NAC-NOC",
+      "drawTime": "20:50",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#4F46E5",
+      "openTime": "07:00 AM",
+      "closeTime": "08:50 PM"
+    },
+    {
+      "id": "lot-ny-dia",
+      "name": "NEW YORK DÍA",
+      "code": "NY-DIA",
+      "drawTime": "14:30",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#0284C7",
+      "openTime": "07:00 AM",
+      "closeTime": "02:30 PM"
+    },
+    {
+      "id": "lot-ny-noche",
+      "name": "NEW YORK NOCHE",
+      "code": "NY-NOC",
+      "drawTime": "22:30",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#334155",
+      "openTime": "07:00 AM",
+      "closeTime": "10:30 PM"
+    },
+    {
+      "id": "lot-express-24h",
+      "name": "LOTERÍA EXPRESS 24/7",
+      "code": "EXP-24H",
+      "drawTime": "11:59 PM",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "color": "#06B6D4",
+      "openTime": "12:00 AM",
+      "closeTime": "11:59 PM"
+    }
+  ],
+  "results": [
+    {
+      "id": "res-real-2026-10-13",
+      "lotteryId": "lot-real",
+      "lotteryName": "REAL",
+      "drawDate": "2026-10-13",
+      "primera": "10",
+      "segunda": "33",
+      "tercera": "77",
+      "publishedAt": "2026-10-13T12:32:29.032Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-ganamas-2026-10-13",
+      "lotteryId": "lot-ganamas",
+      "lotteryName": "GANA MÁS",
+      "drawDate": "2026-10-13",
+      "primera": "42",
+      "segunda": "18",
+      "tercera": "95",
+      "publishedAt": "2026-10-13T12:45:49.032Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-loteka-2026-10-13",
+      "lotteryId": "lot-loteka",
+      "lotteryName": "LOTEKA",
+      "drawDate": "2026-10-13",
+      "primera": "33",
+      "segunda": "10",
+      "tercera": "50",
+      "publishedAt": "2026-10-13T13:02:29.032Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-leidsa-2026-10-13",
+      "lotteryId": "lot-leidsa",
+      "lotteryName": "LEIDSA",
+      "drawDate": "2026-10-13",
+      "primera": "07",
+      "segunda": "21",
+      "tercera": "84",
+      "publishedAt": "2026-10-13T13:12:29.032Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-nacional-2026-10-13",
+      "lotteryId": "lot-nacional",
+      "lotteryName": "NACIONAL NOCHE",
+      "drawDate": "2026-10-13",
+      "primera": "15",
+      "segunda": "59",
+      "tercera": "30",
+      "publishedAt": "2026-10-13T13:22:29.032Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-primera-2026-10-13",
+      "lotteryId": "lot-primera-dia",
+      "lotteryName": "PRIMERA DÍA",
+      "drawDate": "2026-10-13",
+      "primera": "88",
+      "segunda": "04",
+      "tercera": "19",
+      "publishedAt": "2026-10-13T13:27:29.032Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-real-2026-10-12",
+      "lotteryId": "lot-real",
+      "lotteryName": "REAL",
+      "drawDate": "2026-10-12",
+      "primera": "10",
+      "segunda": "33",
+      "tercera": "77",
+      "publishedAt": "2026-10-12T00:19:34.734Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-ganamas-2026-10-12",
+      "lotteryId": "lot-ganamas",
+      "lotteryName": "GANA MÁS",
+      "drawDate": "2026-10-12",
+      "primera": "42",
+      "segunda": "18",
+      "tercera": "95",
+      "publishedAt": "2026-10-12T00:32:54.734Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-loteka-2026-10-12",
+      "lotteryId": "lot-loteka",
+      "lotteryName": "LOTEKA",
+      "drawDate": "2026-10-12",
+      "primera": "33",
+      "segunda": "10",
+      "tercera": "50",
+      "publishedAt": "2026-10-12T00:49:34.734Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-leidsa-2026-10-12",
+      "lotteryId": "lot-leidsa",
+      "lotteryName": "LEIDSA",
+      "drawDate": "2026-10-12",
+      "primera": "07",
+      "segunda": "21",
+      "tercera": "84",
+      "publishedAt": "2026-10-12T00:59:34.734Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-nacional-2026-10-12",
+      "lotteryId": "lot-nacional",
+      "lotteryName": "NACIONAL NOCHE",
+      "drawDate": "2026-10-12",
+      "primera": "15",
+      "segunda": "59",
+      "tercera": "30",
+      "publishedAt": "2026-10-12T01:09:34.734Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-primera-2026-10-12",
+      "lotteryId": "lot-primera-dia",
+      "lotteryName": "PRIMERA DÍA",
+      "drawDate": "2026-10-12",
+      "primera": "88",
+      "segunda": "04",
+      "tercera": "19",
+      "publishedAt": "2026-10-12T01:14:34.734Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-real-2026-10-07",
+      "lotteryId": "lot-real",
+      "lotteryName": "REAL",
+      "drawDate": "2026-10-07",
+      "primera": "10",
+      "segunda": "33",
+      "tercera": "77",
+      "publishedAt": "2026-10-07T11:53:48.312Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-ganamas-2026-10-07",
+      "lotteryId": "lot-ganamas",
+      "lotteryName": "GANA MÁS",
+      "drawDate": "2026-10-07",
+      "primera": "42",
+      "segunda": "18",
+      "tercera": "95",
+      "publishedAt": "2026-10-07T12:07:08.312Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-loteka-2026-10-07",
+      "lotteryId": "lot-loteka",
+      "lotteryName": "LOTEKA",
+      "drawDate": "2026-10-07",
+      "primera": "33",
+      "segunda": "10",
+      "tercera": "50",
+      "publishedAt": "2026-10-07T12:23:48.312Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-leidsa-2026-10-07",
+      "lotteryId": "lot-leidsa",
+      "lotteryName": "LEIDSA",
+      "drawDate": "2026-10-07",
+      "primera": "07",
+      "segunda": "21",
+      "tercera": "84",
+      "publishedAt": "2026-10-07T12:33:48.312Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-nacional-2026-10-07",
+      "lotteryId": "lot-nacional",
+      "lotteryName": "NACIONAL NOCHE",
+      "drawDate": "2026-10-07",
+      "primera": "15",
+      "segunda": "59",
+      "tercera": "30",
+      "publishedAt": "2026-10-07T12:43:48.312Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-primera-2026-10-07",
+      "lotteryId": "lot-primera-dia",
+      "lotteryName": "PRIMERA DÍA",
+      "drawDate": "2026-10-07",
+      "primera": "88",
+      "segunda": "04",
+      "tercera": "19",
+      "publishedAt": "2026-10-07T12:48:48.312Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-real-2026-10-05",
+      "lotteryId": "lot-real",
+      "lotteryName": "REAL",
+      "drawDate": "2026-10-05",
+      "primera": "10",
+      "segunda": "33",
+      "tercera": "77",
+      "publishedAt": "2026-10-05T16:48:07.021Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-ganamas-2026-10-05",
+      "lotteryId": "lot-ganamas",
+      "lotteryName": "GANA MÁS",
+      "drawDate": "2026-10-05",
+      "primera": "42",
+      "segunda": "18",
+      "tercera": "95",
+      "publishedAt": "2026-10-05T17:01:27.021Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-loteka-2026-10-05",
+      "lotteryId": "lot-loteka",
+      "lotteryName": "LOTEKA",
+      "drawDate": "2026-10-05",
+      "primera": "33",
+      "segunda": "10",
+      "tercera": "50",
+      "publishedAt": "2026-10-05T17:18:07.021Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-leidsa-2026-10-05",
+      "lotteryId": "lot-leidsa",
+      "lotteryName": "LEIDSA",
+      "drawDate": "2026-10-05",
+      "primera": "07",
+      "segunda": "21",
+      "tercera": "84",
+      "publishedAt": "2026-10-05T17:28:07.021Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-nacional-2026-10-05",
+      "lotteryId": "lot-nacional",
+      "lotteryName": "NACIONAL NOCHE",
+      "drawDate": "2026-10-05",
+      "primera": "15",
+      "segunda": "59",
+      "tercera": "30",
+      "publishedAt": "2026-10-05T17:38:07.021Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-primera-2026-10-05",
+      "lotteryId": "lot-primera-dia",
+      "lotteryName": "PRIMERA DÍA",
+      "drawDate": "2026-10-05",
+      "primera": "88",
+      "segunda": "04",
+      "tercera": "19",
+      "publishedAt": "2026-10-05T17:43:07.021Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-real-2026-10-02",
+      "lotteryId": "lot-real",
+      "lotteryName": "REAL",
+      "drawDate": "2026-10-02",
+      "primera": "10",
+      "segunda": "33",
+      "tercera": "77",
+      "publishedAt": "2026-10-02T15:41:11.961Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-ganamas-2026-10-02",
+      "lotteryId": "lot-ganamas",
+      "lotteryName": "GANA MÁS",
+      "drawDate": "2026-10-02",
+      "primera": "42",
+      "segunda": "18",
+      "tercera": "95",
+      "publishedAt": "2026-10-02T15:54:31.961Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-loteka-2026-10-02",
+      "lotteryId": "lot-loteka",
+      "lotteryName": "LOTEKA",
+      "drawDate": "2026-10-02",
+      "primera": "33",
+      "segunda": "10",
+      "tercera": "50",
+      "publishedAt": "2026-10-02T16:11:11.961Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-leidsa-2026-10-02",
+      "lotteryId": "lot-leidsa",
+      "lotteryName": "LEIDSA",
+      "drawDate": "2026-10-02",
+      "primera": "07",
+      "segunda": "21",
+      "tercera": "84",
+      "publishedAt": "2026-10-02T16:21:11.961Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-nacional-2026-10-02",
+      "lotteryId": "lot-nacional",
+      "lotteryName": "NACIONAL NOCHE",
+      "drawDate": "2026-10-02",
+      "primera": "15",
+      "segunda": "59",
+      "tercera": "30",
+      "publishedAt": "2026-10-02T16:31:11.961Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-primera-2026-10-02",
+      "lotteryId": "lot-primera-dia",
+      "lotteryName": "PRIMERA DÍA",
+      "drawDate": "2026-10-02",
+      "primera": "88",
+      "segunda": "04",
+      "tercera": "19",
+      "publishedAt": "2026-10-02T16:36:11.961Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-real-2026-09-30",
+      "lotteryId": "lot-real",
+      "lotteryName": "REAL",
+      "drawDate": "2026-09-30",
+      "primera": "10",
+      "segunda": "33",
+      "tercera": "77",
+      "publishedAt": "2026-09-30T00:42:24.619Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-ganamas-2026-09-30",
+      "lotteryId": "lot-ganamas",
+      "lotteryName": "GANA MÁS",
+      "drawDate": "2026-09-30",
+      "primera": "42",
+      "segunda": "18",
+      "tercera": "95",
+      "publishedAt": "2026-09-30T00:55:44.619Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-loteka-2026-09-30",
+      "lotteryId": "lot-loteka",
+      "lotteryName": "LOTEKA",
+      "drawDate": "2026-09-30",
+      "primera": "33",
+      "segunda": "10",
+      "tercera": "50",
+      "publishedAt": "2026-09-30T01:12:24.619Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-leidsa-2026-09-30",
+      "lotteryId": "lot-leidsa",
+      "lotteryName": "LEIDSA",
+      "drawDate": "2026-09-30",
+      "primera": "07",
+      "segunda": "21",
+      "tercera": "84",
+      "publishedAt": "2026-09-30T01:22:24.619Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-nacional-2026-09-30",
+      "lotteryId": "lot-nacional",
+      "lotteryName": "NACIONAL NOCHE",
+      "drawDate": "2026-09-30",
+      "primera": "15",
+      "segunda": "59",
+      "tercera": "30",
+      "publishedAt": "2026-09-30T01:32:24.619Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-primera-2026-09-30",
+      "lotteryId": "lot-primera-dia",
+      "lotteryName": "PRIMERA DÍA",
+      "drawDate": "2026-09-30",
+      "primera": "88",
+      "segunda": "04",
+      "tercera": "19",
+      "publishedAt": "2026-09-30T01:37:24.619Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-real-20260929",
+      "lotteryId": "lot-real",
+      "lotteryName": "REAL",
+      "drawDate": "2026-09-29",
+      "primera": "10",
+      "segunda": "33",
+      "tercera": "77",
+      "publishedAt": "2026-09-29T19:43:04.010Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-ganamas-20260929",
+      "lotteryId": "lot-ganamas",
+      "lotteryName": "GANA MÁS",
+      "drawDate": "2026-09-29",
+      "primera": "42",
+      "segunda": "18",
+      "tercera": "95",
+      "publishedAt": "2026-09-29T19:30:00.000Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-loteka-20260929",
+      "lotteryId": "lot-loteka",
+      "lotteryName": "LOTEKA",
+      "drawDate": "2026-09-29",
+      "primera": "33",
+      "segunda": "10",
+      "tercera": "50",
+      "publishedAt": "2026-09-29T19:12:43.091Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-leidsa-20260929",
+      "lotteryId": "lot-leidsa",
+      "lotteryName": "LEIDSA",
+      "drawDate": "2026-09-29",
+      "primera": "07",
+      "segunda": "21",
+      "tercera": "84",
+      "publishedAt": "2026-09-29T21:00:00.000Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-nacional-20260929",
+      "lotteryId": "lot-nacional",
+      "lotteryName": "NACIONAL NOCHE",
+      "drawDate": "2026-09-29",
+      "primera": "15",
+      "segunda": "59",
+      "tercera": "30",
+      "publishedAt": "2026-09-29T20:55:00.000Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-primera-20260929",
+      "lotteryId": "lot-primera-dia",
+      "lotteryName": "PRIMERA DÍA",
+      "drawDate": "2026-09-29",
+      "primera": "88",
+      "segunda": "04",
+      "tercera": "19",
+      "publishedAt": "2026-09-29T12:05:00.000Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-real-today",
+      "lotteryId": "lot-real",
+      "lotteryName": "REAL",
+      "drawDate": "2026-09-26",
+      "primera": "10",
+      "segunda": "33",
+      "tercera": "25",
+      "publishedAt": "2026-09-26T19:43:04.010Z",
+      "publishedBy": "Administrador Central"
+    },
+    {
+      "id": "res-loteka-today",
+      "lotteryId": "lot-loteka",
+      "lotteryName": "LOTEKA",
+      "drawDate": "2026-09-26",
+      "primera": "33",
+      "segunda": "10",
+      "tercera": "50",
+      "publishedAt": "2026-09-26T19:12:43.091Z",
+      "publishedBy": "Administrador Central"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "tck-1791899448634-386",
+      "consorcioId": "c-1230",
+      "ticketNumber": "TCK-20261013-1002-00016",
+      "verificationCode": "2024E4",
+      "terminalId": "term-1002",
+      "terminalCode": "1002",
+      "userId": "usr-term-1002",
+      "userName": "Banca Sucursal 1002",
+      "date": "2026-10-13",
+      "time": "13:50:48",
+      "plays": [
+        {
+          "id": "ply-tck-1791899448634-386-1",
+          "ticketId": "tck-1791899448634-386",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "PALE",
+          "numbers": [
+            "05",
+            "23"
+          ],
+          "amount": 50,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 50,
+      "totalWon": 0,
+      "status": "PENDIENTE",
+      "createdAt": "2026-10-13T13:50:48.634Z"
+    },
+    {
+      "id": "tck-1791768506726-962",
+      "consorcioId": "c-1230",
+      "ticketNumber": "TCK-20261012-1001-00015",
+      "verificationCode": "9783B8",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-term-1001",
+      "userName": "Banca Central 1001",
+      "date": "2026-10-12",
+      "time": "01:28:26",
+      "plays": [
+        {
+          "id": "ply-tck-1791768506726-962-1",
+          "ticketId": "tck-1791768506726-962",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "QUINIELA",
+          "numbers": [
+            "05"
+          ],
+          "amount": 20,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 20,
+      "totalWon": 0,
+      "status": "PENDIENTE",
+      "createdAt": "2026-10-12T01:28:26.726Z"
+    },
+    {
+      "id": "tck-1791378489059-680",
+      "consorcioId": "c-1230",
+      "ticketNumber": "TCK-20261007-1001-00014",
+      "verificationCode": "1007C0",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-admin-salomon",
+      "userName": "Consorcio de Bancas Salomón",
+      "date": "2026-10-07",
+      "time": "13:08:09",
+      "plays": [
+        {
+          "id": "ply-tck-1791378489059-680-1",
+          "ticketId": "tck-1791378489059-680",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "PALE",
+          "numbers": [
+            "85",
+            "23"
+          ],
+          "amount": 40,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1791378489059-680-2",
+          "ticketId": "tck-1791378489059-680",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "PALE",
+          "numbers": [
+            "58",
+            "23"
+          ],
+          "amount": 40,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 80,
+      "totalWon": 0,
+      "status": "PENDIENTE",
+      "createdAt": "2026-10-07T13:08:09.059Z"
+    },
+    {
+      "id": "tck-1791378280504-964",
+      "consorcioId": "c-1230",
+      "ticketNumber": "TCK-20261007-1001-00013",
+      "verificationCode": "C8C6B6",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-admin-salomon",
+      "userName": "Consorcio de Bancas Salomón",
+      "date": "2026-10-07",
+      "time": "13:04:40",
+      "plays": [
+        {
+          "id": "ply-tck-1791378280504-964-1",
+          "ticketId": "tck-1791378280504-964",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "QUINIELA",
+          "numbers": [
+            "05"
+          ],
+          "amount": 10,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 10,
+      "totalWon": 0,
+      "status": "PENDIENTE",
+      "createdAt": "2026-10-07T13:04:40.504Z"
+    },
+    {
+      "id": "tck-1790733122008-70",
+      "consorcioId": "c-1230",
+      "ticketNumber": "TCK-20260930-0001-00012",
+      "verificationCode": "7E9B83",
+      "terminalId": "term-0001",
+      "terminalCode": "0001",
+      "userId": "usr-term-0001",
+      "userName": "Banca Salomón #0001",
+      "date": "2026-09-30",
+      "time": "01:52:02",
+      "plays": [
+        {
+          "id": "ply-tck-1790733122008-70-1",
+          "ticketId": "tck-1790733122008-70",
+          "lotteryId": "lot-express-24h",
+          "lotteryName": "LOTERÍA EXPRESS 24/7",
+          "playType": "QUINIELA",
+          "numbers": [
+            "33"
+          ],
+          "amount": 25,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 25,
+      "totalWon": 0,
+      "status": "VIGENTE",
+      "createdAt": "2026-09-30T01:52:02.008Z"
+    },
+    {
+      "id": "tck-1790733116243-16",
+      "consorcioId": "c-1230",
+      "ticketNumber": "TCK-20260930-1001-00011",
+      "verificationCode": "12CB12",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-admin",
+      "userName": "Administrador Central",
+      "date": "2026-09-30",
+      "time": "01:51:56",
+      "plays": [
+        {
+          "id": "ply-tck-1790733116243-16-1",
+          "ticketId": "tck-1790733116243-16",
+          "lotteryId": "lot-express-24h",
+          "lotteryName": "LOTERÍA EXPRESS 24/7",
+          "playType": "QUINIELA",
+          "numbers": [
+            "25"
+          ],
+          "amount": 50,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 50,
+      "totalWon": 0,
+      "status": "VIGENTE",
+      "createdAt": "2026-09-30T01:51:56.243Z"
+    },
+    {
+      "id": "tck-1790453973403-62",
+      "ticketNumber": "TCK-20260926-1001-00010",
+      "verificationCode": "E32551",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-term-1001",
+      "userName": "Banca Central 1001",
+      "date": "2026-09-26",
+      "time": "20:19:33",
+      "plays": [
+        {
+          "id": "ply-tck-1790453973403-62-1",
+          "ticketId": "tck-1790453973403-62",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "lottery2Id": "lot-georgia-tar",
+          "lottery2Name": "GEORGIA TARDE",
+          "playType": "SUPER_PALE",
+          "numbers": [
+            "05",
+            "05"
+          ],
+          "amount": 5,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790453973403-62-2",
+          "ticketId": "tck-1790453973403-62",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "lottery2Id": "lot-georgia-tar",
+          "lottery2Name": "GEORGIA TARDE",
+          "playType": "SUPER_PALE",
+          "numbers": [
+            "12",
+            "32"
+          ],
+          "amount": 5,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790453973403-62-3",
+          "ticketId": "tck-1790453973403-62",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "lottery2Id": "lot-georgia-tar",
+          "lottery2Name": "GEORGIA TARDE",
+          "playType": "SUPER_PALE",
+          "numbers": [
+            "14",
+            "25"
+          ],
+          "amount": 3,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 13,
+      "totalWon": 0,
+      "status": "VIGENTE",
+      "createdAt": "2026-09-26T20:19:33.404Z"
+    },
+    {
+      "id": "tck-1790453858957-764",
+      "ticketNumber": "TCK-20260926-1001-00009",
+      "verificationCode": "880634",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-term-1001",
+      "userName": "Banca Central 1001",
+      "date": "2026-09-26",
+      "time": "20:17:38",
+      "plays": [
+        {
+          "id": "ply-tck-1790453858957-764-1",
+          "ticketId": "tck-1790453858957-764",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "QUINIELA",
+          "numbers": [
+            "85"
+          ],
+          "amount": 5,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790453858957-764-2",
+          "ticketId": "tck-1790453858957-764",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "QUINIELA",
+          "numbers": [
+            "55"
+          ],
+          "amount": 5,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790453858957-764-3",
+          "ticketId": "tck-1790453858957-764",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "QUINIELA",
+          "numbers": [
+            "22"
+          ],
+          "amount": 2,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790453858957-764-4",
+          "ticketId": "tck-1790453858957-764",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "QUINIELA",
+          "numbers": [
+            "55"
+          ],
+          "amount": 5,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790453858957-764-5",
+          "ticketId": "tck-1790453858957-764",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "QUINIELA",
+          "numbers": [
+            "12"
+          ],
+          "amount": 5,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790453858957-764-6",
+          "ticketId": "tck-1790453858957-764",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "PALE",
+          "numbers": [
+            "12",
+            "32"
+          ],
+          "amount": 2,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 24,
+      "totalWon": 0,
+      "status": "VIGENTE",
+      "createdAt": "2026-09-26T20:17:38.957Z"
+    },
+    {
+      "id": "tck-1790453488404-932",
+      "ticketNumber": "TCK-20260926-1001-00008",
+      "verificationCode": "902CB4",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-term-1001",
+      "userName": "Banca Central 1001",
+      "date": "2026-09-26",
+      "time": "20:11:28",
+      "plays": [
+        {
+          "id": "ply-tck-1790453488404-932-1",
+          "ticketId": "tck-1790453488404-932",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "QUINIELA",
+          "numbers": [
+            "05"
+          ],
+          "amount": 5,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790453488404-932-2",
+          "ticketId": "tck-1790453488404-932",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "PALE",
+          "numbers": [
+            "23",
+            "12"
+          ],
+          "amount": 5,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790453488404-932-3",
+          "ticketId": "tck-1790453488404-932",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "PALE",
+          "numbers": [
+            "12",
+            "33"
+          ],
+          "amount": 1,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790453488404-932-4",
+          "ticketId": "tck-1790453488404-932",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "PALE",
+          "numbers": [
+            "45",
+            "21"
+          ],
+          "amount": 1,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790453488404-932-5",
+          "ticketId": "tck-1790453488404-932",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "playType": "QUINIELA",
+          "numbers": [
+            "48"
+          ],
+          "amount": 12,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 24,
+      "totalWon": 0,
+      "status": "VIGENTE",
+      "createdAt": "2026-09-26T20:11:28.404Z"
+    },
+    {
+      "id": "tck-1790453402452-581",
+      "ticketNumber": "TCK-20260926-1001-00007",
+      "verificationCode": "FEDB44",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-admin",
+      "userName": "Administrador Central",
+      "date": "2026-09-26",
+      "time": "20:10:02",
+      "plays": [
+        {
+          "id": "ply-tck-1790453402452-581-1",
+          "ticketId": "tck-1790453402452-581",
+          "lotteryId": "lot-primera-noc",
+          "lotteryName": "LA PRIMERA NOCHE",
+          "lottery2Id": "lot-georgia-tar",
+          "lottery2Name": "GEORGIA TARDE",
+          "playType": "SUPER_PALE",
+          "numbers": [
+            "05",
+            "25"
+          ],
+          "amount": 50,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 50,
+      "totalWon": 0,
+      "status": "VIGENTE",
+      "createdAt": "2026-09-26T20:10:02.452Z"
+    },
+    {
+      "id": "tck-1790452848004-789",
+      "ticketNumber": "TCK-20260926-1002-00006",
+      "verificationCode": "A416E0",
+      "terminalId": "term-1002",
+      "terminalCode": "1002",
+      "userId": "usr-term-1002",
+      "userName": "Banca Sucursal 1002",
+      "date": "2026-09-26",
+      "time": "20:00:48",
+      "plays": [
+        {
+          "id": "ply-tck-1790452848004-789-1",
+          "ticketId": "tck-1790452848004-789",
+          "lotteryId": "lot-real",
+          "lotteryName": "REAL",
+          "playType": "PALE",
+          "numbers": [
+            "05",
+            "28"
+          ],
+          "amount": 50,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 50,
+      "totalWon": 0,
+      "status": "VIGENTE",
+      "createdAt": "2026-09-26T20:00:48.004Z"
+    },
+    {
+      "id": "tck-1790452630736-605",
+      "ticketNumber": "TCK-20260926-1001-00005",
+      "verificationCode": "FBB80D",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-admin",
+      "userName": "Administrador Central",
+      "date": "2026-09-26",
+      "time": "19:57:10",
+      "plays": [
+        {
+          "id": "ply-tck-1790452630736-605-1",
+          "ticketId": "tck-1790452630736-605",
+          "lotteryId": "lot-real",
+          "lotteryName": "REAL",
+          "playType": "QUINIELA",
+          "numbers": [
+            "02"
+          ],
+          "amount": 50,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790452630736-605-2",
+          "ticketId": "tck-1790452630736-605",
+          "lotteryId": "lot-ganamas",
+          "lotteryName": "GANA MÁS",
+          "playType": "QUINIELA",
+          "numbers": [
+            "02"
+          ],
+          "amount": 50,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        },
+        {
+          "id": "ply-tck-1790452630736-605-3",
+          "ticketId": "tck-1790452630736-605",
+          "lotteryId": "lot-real",
+          "lotteryName": "REAL",
+          "lottery2Id": "lot-ganamas",
+          "lottery2Name": "GANA MÁS",
+          "playType": "SUPER_PALE",
+          "numbers": [
+            "05",
+            "50"
+          ],
+          "amount": 5,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 105,
+      "totalWon": 0,
+      "status": "VIGENTE",
+      "createdAt": "2026-09-26T19:57:10.736Z"
+    },
+    {
+      "id": "tck-1790451865929-810",
+      "ticketNumber": "TCK-20260926-1001-00004",
+      "verificationCode": "AC6DA3",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-term-1001",
+      "userName": "Banca Central 1001",
+      "date": "2026-09-26",
+      "time": "19:44:25",
+      "plays": [
+        {
+          "id": "ply-tck-1790451865929-810-1",
+          "ticketId": "tck-1790451865929-810",
+          "lotteryId": "lot-real",
+          "lotteryName": "REAL",
+          "lottery2Id": "lot-ganamas",
+          "lottery2Name": "GANA MÁS",
+          "playType": "SUPER_PALE",
+          "numbers": [
+            "05",
+            "05"
+          ],
+          "amount": 5,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 5,
+      "totalWon": 0,
+      "status": "VIGENTE",
+      "createdAt": "2026-09-26T19:44:25.929Z"
+    },
+    {
+      "id": "tck-1790451826012-115",
+      "ticketNumber": "TCK-20260926-1001-00003",
+      "verificationCode": "1D1E27",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-term-1001",
+      "userName": "Banca Central 1001",
+      "date": "2026-09-26",
+      "time": "19:43:46",
+      "plays": [
+        {
+          "id": "ply-tck-1790451826012-115-1",
+          "ticketId": "tck-1790451826012-115",
+          "lotteryId": "lot-real",
+          "lotteryName": "REAL",
+          "playType": "QUINIELA",
+          "numbers": [
+            "05"
+          ],
+          "amount": 50,
+          "wonAmount": 0,
+          "status": "PENDIENTE"
+        }
+      ],
+      "totalAmount": 50,
+      "totalWon": 0,
+      "status": "VIGENTE",
+      "createdAt": "2026-09-26T19:43:46.012Z"
+    },
+    {
+      "id": "tck-1790451778534-359",
+      "ticketNumber": "TCK-20260926-1001-00002",
+      "verificationCode": "8E5C87",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-term-1001",
+      "userName": "Banca Central 1001",
+      "date": "2026-09-26",
+      "time": "19:42:58",
+      "plays": [
+        {
+          "id": "ply-tck-1790451778534-359-1",
+          "ticketId": "tck-1790451778534-359",
+          "lotteryId": "lot-real",
+          "lotteryName": "REAL",
+          "lottery2Id": "lot-loteka",
+          "lottery2Name": "LOTEKA",
+          "playType": "SUPER_PALE",
+          "numbers": [
+            "10",
+            "33"
+          ],
+          "amount": 50,
+          "wonAmount": 150000,
+          "status": "GANADOR",
+          "winningDetail": "Súper Palé ganado con REAL (10) + LOTEKA (33)"
+        }
+      ],
+      "totalAmount": 50,
+      "totalWon": 150000,
+      "status": "PAGADO",
+      "createdAt": "2026-09-26T19:42:58.534Z",
+      "paidAt": "2026-09-26T19:43:10.053Z",
+      "paidBy": "Administrador Central"
+    },
+    {
+      "id": "tck-1790451772488-189",
+      "ticketNumber": "TCK-20260926-1001-00001",
+      "verificationCode": "3544DB",
+      "terminalId": "term-1001",
+      "terminalCode": "1001",
+      "userId": "usr-term-1001",
+      "userName": "Banca Central 1001",
+      "date": "2026-09-26",
+      "time": "19:42:52",
+      "plays": [
+        {
+          "id": "ply-tck-1790451772488-189-1",
+          "ticketId": "tck-1790451772488-189",
+          "lotteryId": "lot-real",
+          "lotteryName": "REAL",
+          "playType": "QUINIELA",
+          "numbers": [
+            "05"
+          ],
+          "amount": 50,
+          "wonAmount": 0,
+          "status": "PERDEDOR"
+        }
+      ],
+      "totalAmount": 50,
+      "totalWon": 0,
+      "status": "PERDEDOR",
+      "createdAt": "2026-09-26T19:42:52.488Z"
+    }
+  ],
+  "prizeConfig": {
+    "quiniela_primera": 60,
+    "quiniela_segunda": 8,
+    "quiniela_tercera": 4,
+    "pale_primera_segunda": 1000,
+    "pale_primera_tercera": 1000,
+    "pale_segunda_tercera": 100,
+    "tripleta_tres": 20000,
+    "tripleta_dos": 100,
+    "super_pale": 3000,
+    "super_pale_allow_inverse": true
+  },
+  "salesCaps": [
+    {
+      "id": "cap-1",
+      "lotteryId": "",
+      "number": "10",
+      "playType": "QUINIELA",
+      "maxAmount": 5000,
+      "active": true,
+      "createdAt": "2026-09-26T19:42:43.091Z"
+    },
+    {
+      "id": "cap-2",
+      "lotteryId": "lot-real",
+      "lotteryName": "REAL",
+      "number": "33",
+      "playType": "QUINIELA",
+      "maxAmount": 3000,
+      "active": true,
+      "createdAt": "2026-09-26T19:42:43.091Z"
+    }
+  ],
+  "settings": {
+    "companyName": "BANCA DE LOTERÍA LA FAVORITA",
+    "slogan": "Seguridad, Rapidez y Confianza Dominicana",
+    "address": "Av. 27 de Febrero esq. Winston Churchill, Santo Domingo, D.N.",
+    "phone": "(809) 555-0199",
+    "rnc": "1-30-84920-1",
+    "ticketFooter": "Los tickets tienen vigencia de 30 días calendario para su reclamo. Sin ticket físico o código válido no se paga premio.",
+    "paperWidth": "58mm"
+  },
+  "auditLogs": [
+    {
+      "id": "log-1791224518271-60",
+      "timestamp": "2026-10-05T18:21:58.271Z",
+      "userId": "admin",
+      "userName": "Administrador Central",
+      "action": "ACTIVACIÓN_TERMINAL",
+      "details": "Terminal #1002 (Banca Sucursal #1002) activada con tipo 📱 Móvil. Código: ACT-ST01-WFGA"
+    },
+    {
+      "id": "log-1791223077501-95",
+      "timestamp": "2026-10-05T17:57:57.501Z",
+      "userId": "salomon",
+      "userName": "Consorcio de Bancas Salomón",
+      "action": "ACTIVACIÓN_TERMINAL",
+      "details": "Terminal #0003 (Banca Salomón #0003) activada con tipo 📱 Móvil. Código: ACT-LB37-6UBK"
+    },
+    {
+      "id": "log-1791223016120-880",
+      "timestamp": "2026-10-05T17:56:56.120Z",
+      "userId": "salomon",
+      "userName": "Consorcio de Bancas Salomón",
+      "action": "ACTIVACIÓN_TERMINAL",
+      "details": "Terminal #0003 (Banca Salomón #0003) activada con tipo 📱 Móvil. Código: ACT-7CKT-AMA6"
+    },
+    {
+      "id": "log-1791222934710-539",
+      "timestamp": "2026-10-05T17:55:34.710Z",
+      "userId": "salomon",
+      "userName": "Consorcio de Bancas Salomón",
+      "action": "ACTIVACIÓN_TERMINAL",
+      "details": "Terminal #0005 (Banca Salomón #0005) activada con tipo 💻 PC. Código: ACT-STPC-QRRJ"
+    },
+    {
+      "id": "log-1791222929141-407",
+      "timestamp": "2026-10-05T17:55:29.141Z",
+      "userId": "usr-admin-salomon",
+      "userName": "Consorcio de Bancas Salomón",
+      "action": "CAMBIO_TIPO_TERMINAL",
+      "details": "Terminal #0001 (Banca Salomón #0001): tipo modificado de 📱 Móvil a 💻 PC."
+    },
+    {
+      "id": "log-1791222929134-575",
+      "timestamp": "2026-10-05T17:55:29.134Z",
+      "userId": "usr-admin-salomon",
+      "userName": "Consorcio de Bancas Salomón",
+      "action": "CAMBIO_TIPO_TERMINAL",
+      "details": "Terminal #0001 (Banca Salomón #0001): tipo modificado de 💻 PC a 📱 Móvil."
+    },
+    {
+      "id": "log-upd-1790606883469",
+      "timestamp": "2026-09-28T14:48:03.469Z",
+      "userId": "term-0002",
+      "userName": "Terminal #0002",
+      "action": "Actualización de Sistema",
+      "details": "Terminal #0002 instaló actualización exitosamente: v1.0.0 → v1.1.0"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "1e7df2d683617e6ef770e8ec9a3965267ec1a9c4a2b511b221a354c3f5621118",
+      "userId": "usr-term-1001",
+      "createdAt": "2026-09-26T19:42:46.738Z"
+    },
+    {
+      "token": "4fe475e66ba78a8d88425401ce9cc5af839dd8d893295bb9ef544f56f58fb9ac",
+      "userId": "usr-admin",
+      "createdAt": "2026-09-26T19:42:49.166Z"
+    },
+    {
+      "token": "4898958e2c5fffb711b3e9fdda5acc14498ac90e4829cd8d57a0202a853d3fbb",
+      "userId": "usr-term-1001",
+      "createdAt": "2026-09-26T20:29:11.933Z"
+    },
+    {
+      "token": "8775db06e3eaa46a661935578a0c61b54a17fa5ed72149eb7eeb949f208bf996",
+      "userId": "usr-term-1001",
+      "createdAt": "2026-09-26T20:29:15.493Z"
+    },
+    {
+      "token": "ce037484e7dd0a2a74f161c1c338e1c6560c21553110f60c81ede61b03bd7871",
+      "userId": "usr-admin",
+      "createdAt": "2026-09-26T20:29:19.795Z"
+    },
+    {
+      "token": "19d2d079515932034e605b20a837cfb71f5f2a4c3f5464499540fe774ad79dc8",
+      "userId": "usr-admin",
+      "createdAt": "2026-09-28T14:31:34.801Z"
+    },
+    {
+      "token": "6429d5ef975d595556875cbe1924683d51fb014f50cfe6ea8c1d3c383f4770c6",
+      "userId": "usr-superadmin",
+      "createdAt": "2026-09-28T14:47:47.815Z"
+    },
+    {
+      "token": "2994cf725b3f652290fd7df341105885c439106c0a2374481fef887d4d4700af",
+      "userId": "usr-superadmin",
+      "createdAt": "2026-09-28T14:48:03.452Z"
+    },
+    {
+      "token": "25401e39eed161672db43d5b3625c6fcb4b00e93be40493513e8a2c0dde6aeca",
+      "userId": "usr-superadmin",
+      "createdAt": "2026-09-30T01:48:28.768Z"
+    },
+    {
+      "token": "40d3cc4bbaea3b4281352222e69c6a5b3ecde2dbb132c799bab2e019c81947f7",
+      "userId": "usr-admin",
+      "createdAt": "2026-09-30T01:50:53.622Z"
+    },
+    {
+      "token": "56b2d8a34b490608b1864738c74f8e3e27d36c8945a416bbe7f7e513f4a2580a",
+      "userId": "usr-admin",
+      "createdAt": "2026-09-30T01:51:07.911Z"
+    },
+    {
+      "token": "2ea45b52c53c84ef086d1260207b8ddeca7046e83a4de36436fd5f21e683c675",
+      "userId": "usr-admin",
+      "createdAt": "2026-09-30T01:51:13.289Z"
+    },
+    {
+      "token": "acce4c3e3ebd066c341fa1b1b2e1b2349e872715a399a466bb934568b7921b16",
+      "userId": "usr-admin",
+      "createdAt": "2026-09-30T01:51:56.233Z"
+    },
+    {
+      "token": "4184a57d46e9fee9d2c2302654c9b3725412076bfd0e87446555f6b10c692796",
+      "userId": "usr-term-0001",
+      "createdAt": "2026-09-30T01:52:02.004Z"
+    },
+    {
+      "token": "49d123e419952b6f79c6925c8af89e3c31d7702b60cd8297a93ce8783e62ac1a",
+      "userId": "usr-admin-salomon",
+      "createdAt": "2026-09-30T11:38:05.369Z"
+    },
+    {
+      "token": "66d2c3b602fdb63a2536314294207e9093b72b9a4f6464195b647053369bdf8c",
+      "userId": "usr-admin-salomon",
+      "createdAt": "2026-09-30T11:38:05.732Z"
+    },
+    {
+      "token": "8041f8bca1630d408090abde0dcc2f1f6db169840700d1765f4c44ac3839bc34",
+      "userId": "usr-admin-salomon",
+      "createdAt": "2026-09-30T12:00:33.778Z"
+    },
+    {
+      "token": "e61eb1ce4409513d41103ffa2dcbd340b0ebb13226e10b3ef4882f1d74a6f8af",
+      "userId": "usr-superadmin",
+      "createdAt": "2026-10-02T16:46:50.966Z"
+    },
+    {
+      "token": "f297b1c2d96aa29d28a5b82cc08f338cdb70a802b99b44b8967fa4e57ce82b3c",
+      "userId": "usr-superadmin",
+      "createdAt": "2026-10-02T16:46:56.260Z"
+    },
+    {
+      "token": "9f2326c453952270a645bcda7a7fb52c2476c3d965c2fdb9c5b70838a80ec6a0",
+      "userId": "usr-superadmin",
+      "createdAt": "2026-10-02T16:47:01.901Z"
+    },
+    {
+      "token": "ca32ff452e290985f9f713bc1304cf7d09140d5c8598d7b21aeea73b6d57920a",
+      "userId": "usr-superadmin",
+      "createdAt": "2026-10-02T16:47:08.575Z"
+    },
+    {
+      "token": "ac8e6543c264ef604a0bc0fa20f32a2393813aa2ab43066a643e16250383680b",
+      "userId": "usr-superadmin",
+      "createdAt": "2026-10-02T16:50:36.571Z"
+    },
+    {
+      "token": "21cf8041bef0bea48c03ab3029a7c389e4b2453b1dd1203f894ad234439c3ee4",
+      "userId": "usr-superadmin",
+      "createdAt": "2026-10-02T16:55:44.580Z"
+    },
+    {
+      "token": "556c30f5c64f377286044d133b9b091283f7e36ad983d1cb52660f786f075c56",
+      "userId": "usr-superadmin",
+      "createdAt": "2026-10-02T17:00:07.021Z"
+    },
+    {
+      "token": "57323422003ded53e3b3d08656d27378ad009addafabc49f563524c7ca0edec1",
+      "userId": "usr-superadmin",
+      "createdAt": "2026-10-02T17:05:33.870Z"
+    },
+    {
+      "token": "bp_usr-admin-salomon_1791222902606_a4705da53f947d48d3d80b9c4f16daa89800138e54ba40b513fc131a8b36ac77",
+      "userId": "usr-admin-salomon",
+      "createdAt": "2026-10-05T17:55:02.606Z"
+    },
+    {
+      "token": "bp_usr-term-0002_1791222902627_e64b9a1e2f47d558ce6719f0ff7850d1bf9efa94b36f71dde2bc8ca919c93c11",
+      "userId": "usr-term-0002",
+      "createdAt": "2026-10-05T17:55:02.627Z"
+    },
+    {
+      "token": "bp_usr-admin-salomon_1791222929101_11859d0604c60af15b9a647533ca4c6bf11b428561f124f5bebf550abd16840f",
+      "userId": "usr-admin-salomon",
+      "createdAt": "2026-10-05T17:55:29.101Z"
+    },
+    {
+      "token": "bp_usr-term-0001_1791222929123_fffa90af1f99a47f70f4af16ce8fb424fb08e4dc47c14cbb8cf5a85a8895fd1b",
+      "userId": "usr-term-0001",
+      "createdAt": "2026-10-05T17:55:29.123Z"
+    },
+    {
+      "token": "bp_usr-term-0002_1791222929129_2faf3bc801bdf7534f2b9fd323d12add6a5c24d7f7d305b0d350ae126b509b45",
+      "userId": "usr-term-0002",
+      "createdAt": "2026-10-05T17:55:29.129Z"
+    },
+    {
+      "token": "bp_usr-admin-salomon_1791222934689_d5bb7148da2081ec61bfb3c78721deddda5eb840338cc1e66226c178191b17d0",
+      "userId": "usr-admin-salomon",
+      "createdAt": "2026-10-05T17:55:34.689Z"
+    },
+    {
+      "token": "bp_usr-superadmin_1791223112140_6e3d3c58b91c5a8fec774e4c518ebeb016394f9df29350939375fd6db7031d63",
+      "userId": "usr-superadmin",
+      "createdAt": "2026-10-05T17:58:32.140Z"
+    },
+    {
+      "token": "bp_usr-admin_1791224499218_4ea57a849d2a0d9ead173dcc95ba553a188db779d0381542297f99c1e0b11723",
+      "userId": "usr-admin",
+      "createdAt": "2026-10-05T18:21:39.218Z"
+    },
+    {
+      "token": "bp_usr-admin_1791224501451_358fb7c4155a086dd151d5e120936fbbeaf49a43f9cd22e487675ab76976b30b",
+      "userId": "usr-admin",
+      "createdAt": "2026-10-05T18:21:41.451Z"
+    },
+    {
+      "token": "bp_usr-admin_1791224509226_966552c6e45cd10906df37b8c1edd78adbebc804db12304461638b39e4bff6ae",
+      "userId": "usr-admin",
+      "createdAt": "2026-10-05T18:21:49.226Z"
+    },
+    {
+      "token": "bp_usr-admin_1791224518252_a924f49abdd1617c23c7f29bad649a192ead2a191331dfd9d07323e473635c4a",
+      "userId": "usr-admin",
+      "createdAt": "2026-10-05T18:21:58.252Z"
+    },
+    {
+      "token": "bp_usr-admin_1791224522814_68274cf35c6eb487c526b5f944172b6c784f12c1a3af917e68b4d9426b854bfe",
+      "userId": "usr-admin",
+      "createdAt": "2026-10-05T18:22:02.814Z"
+    },
+    {
+      "token": "bp_usr-admin_1791224527878_6646e67fcba47e580143d2255ea0f3780d40b31d2919a1f430a616678da982dd",
+      "userId": "usr-admin",
+      "createdAt": "2026-10-05T18:22:07.878Z"
+    },
+    {
+      "token": "bp_usr-admin_1791224531589_6b2e04ccddf235a48c534090195f2899f74ba29e8291ae38da4b82af10d125d0",
+      "userId": "usr-admin",
+      "createdAt": "2026-10-05T18:22:11.589Z"
+    },
+    {
+      "token": "bp_usr-term-1001_1791379230751_5d732e85383d542e3f370a4cf1655bcc1d19f7163428c4583394b24c5ccb0f63",
+      "userId": "usr-term-1001",
+      "createdAt": "2026-10-07T13:20:30.751Z"
+    },
+    {
+      "token": "bp_usr-term-0001_1791379237304_dbe7ae85f583af2dd5ac42766f6a897049a010b6a17e05156ca1df72b840cd17",
+      "userId": "usr-term-0001",
+      "createdAt": "2026-10-07T13:20:37.304Z"
+    },
+    {
+      "token": "bp_usr-term-0002_1791379241658_46032c6a794f7e35627ca544d75b100f109a88f75bc1af9ddf1275f1883e11dd",
+      "userId": "usr-term-0002",
+      "createdAt": "2026-10-07T13:20:41.658Z"
+    },
+    {
+      "token": "bp_usr-term-1001_1791379323916_feb286990192c54dc5a908f6e460a93b3ec99ef5b9af2f364810c2bed11c29be",
+      "userId": "usr-term-1001",
+      "createdAt": "2026-10-07T13:22:03.917Z"
+    },
+    {
+      "token": "bp_usr-term-0001_1791379329171_04692ed23beeb74c879cd9b0aecb33108c60ee7df29b9e06d61a758df6e84b2a",
+      "userId": "usr-term-0001",
+      "createdAt": "2026-10-07T13:22:09.172Z"
+    },
+    {
+      "token": "bp_usr-term-0002_1791379333699_e2819d336f46cae590d8206af8bf2471d8cdc8fe3b9dc8f0e0f5406dee2f95e4",
+      "userId": "usr-term-0002",
+      "createdAt": "2026-10-07T13:22:13.699Z"
+    },
+    {
+      "token": "bp_usr-term-1001_1791379394670_1b4f515310a28606821af12f0e459f050ae30dcd4668bd899f5752cd50d0d358",
+      "userId": "usr-term-1001",
+      "createdAt": "2026-10-07T13:23:14.670Z"
+    },
+    {
+      "token": "bp_usr-term-1001_1791380158175_f2064b78299ee9ffbd26ecc99c24c317d2bfda78d7126af0548ecdc6ac257fb4",
+      "userId": "usr-term-1001",
+      "createdAt": "2026-10-07T13:35:58.175Z"
+    },
+    {
+      "token": "bp_usr-term-1001_1791380176993_cbe67240a2458395d1baa20a83f4eda3e9dc5085948fa5d55839b4014e6bc0d5",
+      "userId": "usr-term-1001",
+      "createdAt": "2026-10-07T13:36:16.993Z"
+    },
+    {
+      "token": "bp_usr-term-0001_1791380185681_49e8cc0feff76ea9558915bd21695fb5b4a6b6c0e1515e9770e38fb07941ac54",
+      "userId": "usr-term-0001",
+      "createdAt": "2026-10-07T13:36:25.681Z"
+    },
+    {
+      "token": "bp_usr-term-1001_1791380443386_da0e3e5320ced76a2c17c54720f9f700bce8a2029b679b98d5d55f9016de9096",
+      "userId": "usr-term-1001",
+      "createdAt": "2026-10-07T13:40:43.386Z"
+    },
+    {
+      "token": "bp_usr-term-1001_1791768441667_3e6bb6f3c6bb1289dbfca7dcfef948efa6e45887c2bac85f3c79ccb073403dfa",
+      "userId": "usr-term-1001",
+      "createdAt": "2026-10-12T01:27:21.667Z"
+    },
+    {
+      "token": "bp_usr-admin-salomon_1791768808104_812d1b31b520de882817402d9a101c6334b412a3857469ba959fb4d663de7ec8",
+      "userId": "usr-admin-salomon",
+      "createdAt": "2026-10-12T01:33:28.104Z"
+    },
+    {
+      "token": "bp_usr-term-1002_1791899429215_13c9d05949f7f1ea655c3825b672871d1429ff4b7846169fa8ffdd347de75dbf",
+      "userId": "usr-term-1002",
+      "createdAt": "2026-10-13T13:50:29.215Z"
+    },
+    {
+      "token": "bp_usr-admin_1791899440182_b20d2ca13a80b8a73ebe8e7760a651114aab103c179e6e40b7642fddd864af34",
+      "userId": "usr-admin",
+      "createdAt": "2026-10-13T13:50:40.182Z"
+    },
+    {
+      "token": "bp_usr-admin_1791899443080_cd91bdc74108805e50a2fc5c30e96b60b81198f490ea252c32553fda17a2ca57",
+      "userId": "usr-admin",
+      "createdAt": "2026-10-13T13:50:43.080Z"
+    },
+    {
+      "token": "bp_usr-admin_1791899476139_b362a14d74aa859b85a64308230cacf2b605894841850524705aee37696f5c6f",
+      "userId": "usr-admin",
+      "createdAt": "2026-10-13T13:51:16.139Z"
+    }
+  ],
+  "consorcios": [
+    {
+      "id": "c-1230",
+      "code": "1230",
+      "name": "Consorcio de Bancas Express",
+      "adminName": "Consorcio de Bancas Salomón",
+      "adminUsername": "salomon",
+      "status": "ACTIVE",
+      "costPerTerminal": 300,
+      "authorizedTerminalsCount": 10,
+      "permissions": {
+        "monitoring": true,
+        "monitoringFunctions": true,
+        "terminals": true,
+        "lotteries": false,
+        "results": true,
+        "topes": true,
+        "prizes": true,
+        "reports": true,
+        "createTerminals": false,
+        "editTerminals": true,
+        "disableTerminals": true,
+        "invoices": true,
+        "visualCustomization": false
+      },
+      "customization": {
+        "commercialName": "Consorcio de Bancas Express",
+        "primaryColor": "#16A34A",
+        "secondaryColor": "#0F172A",
+        "ticketHeader": "CONSORCIO DE BANCAS SALOMÓN",
+        "ticketFooter": "Consorcio Salomón - Seguridad y Confianza. Reclame su premio dentro de 30 días."
+      },
+      "createdAt": "2026-09-01T08:00:00.000Z",
+      "payoutLimits": {
+        "quinielaMaxPayoutPerDraw": 360000,
+        "quinielaMaxPayoutPerTicket": 65000,
+        "paleMaxPayoutPerDraw": 850000,
+        "paleMaxPayoutPerCombination": 320000,
+        "tripletaMaxPayoutPerDraw": 1600000,
+        "tripletaMaxPayoutPerCombination": 650000,
+        "superPaleMaxPayoutPerDraw": 1000000,
+        "totalDrawExposureLimit": 2500000,
+        "riskMitigationAction": "BLOCK_SALES",
+        "autoAlertThresholdPercent": 80,
+        "enabled": true,
+        "updatedAt": "2026-10-02T16:46:56.274Z",
+        "updatedBy": "Súper Administrador"
+      }
+    },
+    {
+      "id": "c-5678",
+      "code": "5678",
+      "name": "Consorcio Quisqueya Premium",
+      "adminName": "Consorcio Quisqueya",
+      "adminUsername": "quisqueya",
+      "status": "ACTIVE",
+      "costPerTerminal": 600,
+      "authorizedTerminalsCount": 10,
+      "permissions": {
+        "monitoring": true,
+        "monitoringFunctions": true,
+        "terminals": true,
+        "lotteries": true,
+        "results": true,
+        "topes": true,
+        "prizes": true,
+        "reports": true,
+        "createTerminals": false,
+        "editTerminals": true,
+        "disableTerminals": true,
+        "invoices": true,
+        "visualCustomization": true
+      },
+      "customization": {
+        "commercialName": "Consorcio Quisqueya Premium",
+        "primaryColor": "#2563EB",
+        "secondaryColor": "#1E293B",
+        "ticketHeader": "CONSORCIO QUISQUEYA",
+        "ticketFooter": "Consorcio Quisqueya - Seguridad y Alta Tecnología."
+      },
+      "payoutLimits": {
+        "quinielaMaxPayoutPerDraw": 500000,
+        "quinielaMaxPayoutPerTicket": 80000,
+        "paleMaxPayoutPerDraw": 1200000,
+        "paleMaxPayoutPerCombination": 450000,
+        "tripletaMaxPayoutPerDraw": 2500000,
+        "tripletaMaxPayoutPerCombination": 1000000,
+        "superPaleMaxPayoutPerDraw": 1500000,
+        "totalDrawExposureLimit": 4000000,
+        "riskMitigationAction": "BLOCK_SALES",
+        "autoAlertThresholdPercent": 85,
+        "enabled": true
+      },
+      "createdAt": "2026-09-10T08:00:00.000Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv-1230-2026-09",
+      "invoiceNumber": "FAC-1230-001",
+      "consorcioId": "c-1230",
+      "consorcioCode": "1230",
+      "consorcioName": "Consorcio de Bancas Salomón",
+      "month": "Septiembre 2026",
+      "terminalsCount": 5,
+      "costPerTerminal": 500,
+      "totalAmount": 2500,
+      "terminalsDetail": [
+        {
+          "terminalCode": "0001",
+          "terminalName": "Banca Salomón #0001",
+          "cost": 500
+        },
+        {
+          "terminalCode": "0002",
+          "terminalName": "Banca Salomón #0002",
+          "cost": 500
+        },
+        {
+          "terminalCode": "0003",
+          "terminalName": "Banca Salomón #0003",
+          "cost": 500
+        },
+        {
+          "terminalCode": "0004",
+          "terminalName": "Banca Salomón #0004",
+          "cost": 500
+        },
+        {
+          "terminalCode": "0005",
+          "terminalName": "Banca Salomón #0005",
+          "cost": 500
+        }
+      ],
+      "status": "PAGADA",
+      "issueDate": "2026-09-01",
+      "dueDate": "2026-09-30",
+      "paidAt": "2026-09-05T14:20:00.000Z"
+    },
+    {
+      "id": "inv-1230-2026-10",
+      "invoiceNumber": "FAC-1230-002",
+      "consorcioId": "c-1230",
+      "consorcioCode": "1230",
+      "consorcioName": "Consorcio de Bancas Salomón",
+      "month": "Octubre 2026",
+      "terminalsCount": 5,
+      "costPerTerminal": 500,
+      "totalAmount": 2500,
+      "terminalsDetail": [
+        {
+          "terminalCode": "0001",
+          "terminalName": "Banca Salomón #0001",
+          "cost": 500
+        },
+        {
+          "terminalCode": "0002",
+          "terminalName": "Banca Salomón #0002",
+          "cost": 500
+        },
+        {
+          "terminalCode": "0003",
+          "terminalName": "Banca Salomón #0003",
+          "cost": 500
+        },
+        {
+          "terminalCode": "0004",
+          "terminalName": "Banca Salomón #0004",
+          "cost": 500
+        },
+        {
+          "terminalCode": "0005",
+          "terminalName": "Banca Salomón #0005",
+          "cost": 500
+        }
+      ],
+      "status": "PENDIENTE",
+      "issueDate": "2026-10-01",
+      "dueDate": "2026-10-31"
+    }
+  ],
+  "devices": [
+    {
+      "id": "DEV-SMUF-XM4C",
+      "consorcioId": "c-1230",
+      "consorcioCode": "1230",
+      "terminalId": "term-0001",
+      "terminalCode": "1002",
+      "status": "ACTIVE",
+      "registeredAt": "2026-09-01T09:00:00.000Z",
+      "lastSeenAt": "2026-10-13T13:50:44.299Z",
+      "deviceName": "Terminal Mostrador POS-58 (Salomón #0001)",
+      "terminalType": "PC",
+      "deviceType": "PC"
+    },
+    {
+      "id": "123D353872",
+      "consorcioId": "c-1230",
+      "consorcioCode": "1230",
+      "status": "PENDING",
+      "registeredAt": "2026-09-28T14:25:05.418Z",
+      "lastSeenAt": "2026-09-28T14:25:05.418Z",
+      "deviceName": "Terminal Móvil Android/iOS",
+      "terminalType": "PC"
+    },
+    {
+      "id": "123D654592",
+      "consorcioId": "c-1230",
+      "consorcioCode": "1230",
+      "deviceType": "PC",
+      "status": "PENDING",
+      "registeredAt": "2026-09-30T11:37:02.857Z",
+      "lastSeenAt": "2026-09-30T11:37:02.857Z",
+      "deviceName": "Terminal Mostrador PC",
+      "ipAddress": "127.0.0.1",
+      "osInfo": "PC / Web",
+      "appVersion": "v1.1.0",
+      "terminalType": "PC"
+    },
+    {
+      "id": "DEV-8F42-K29X",
+      "consorcioId": "c-1230",
+      "consorcioCode": "1230",
+      "deviceType": "ANDROID",
+      "status": "INACTIVE",
+      "registeredAt": "2026-09-30T12:00:33.769Z",
+      "lastSeenAt": "2026-10-05T17:55:29.123Z",
+      "deviceName": "Terminal / Navegador Registrado",
+      "ipAddress": "127.0.0.1",
+      "osInfo": "Android 13 (POS Sunmi V2s)",
+      "appVersion": "v1.1.0",
+      "terminalId": "term-0003",
+      "terminalCode": "0003",
+      "bancaName": "Banca Los Prados #0003",
+      "assignedUsername": "0003",
+      "activationCode": "ACT-K29X-BWVU",
+      "deviceToken": "6330b90616f8d1b03a91890e52fc510e31ffbdf1a79cb37150aa22717b552c03",
+      "activatedAt": "2026-09-30T12:00:33.784Z",
+      "terminalType": "PC"
+    },
+    {
+      "id": "DEV-TEST-PC",
+      "consorcioId": "c-1230",
+      "consorcioCode": "1230",
+      "terminalId": "term-0005",
+      "terminalCode": "0005",
+      "bancaName": "Banca Salomón #0005",
+      "assignedUsername": "0005",
+      "deviceType": "PC",
+      "terminalType": "PC",
+      "status": "ACTIVE",
+      "activationCode": "ACT-STPC-QRRJ",
+      "deviceToken": "269ba1b36658d4657452532222f2184f52006b8d4aa4ee163c4e319200e5d77e",
+      "registeredAt": "2026-10-05T17:55:34.710Z",
+      "activatedAt": "2026-10-05T17:55:34.710Z",
+      "lastSeenAt": "2026-10-05T17:55:34.710Z",
+      "deviceName": "Terminal 0005 (Banca Salomón #0005) - PC"
+    },
+    {
+      "id": "DEV-VB8L-7CKT",
+      "consorcioId": "c-1230",
+      "consorcioCode": "1230",
+      "terminalId": "term-0003",
+      "terminalCode": "0003",
+      "bancaName": "Banca Salomón #0003",
+      "assignedUsername": "0003",
+      "deviceType": "ANDROID",
+      "terminalType": "MOVIL",
+      "status": "INACTIVE",
+      "activationCode": "ACT-7CKT-AMA6",
+      "deviceToken": "bff6900c216c061023e29d65d6d7acc9e413c133e215e1036d036cecaa6909a5",
+      "registeredAt": "2026-10-05T17:56:56.120Z",
+      "activatedAt": "2026-10-05T17:56:56.120Z",
+      "lastSeenAt": "2026-10-05T17:56:56.120Z",
+      "deviceName": "Terminal 0003 (Banca Salomón #0003) - Móvil"
+    },
+    {
+      "id": "DEV-F9HY-LB37",
+      "consorcioId": "c-1230",
+      "consorcioCode": "1230",
+      "terminalId": "term-0003",
+      "terminalCode": "0003",
+      "bancaName": "Banca Salomón #0003",
+      "assignedUsername": "0003",
+      "deviceType": "ANDROID",
+      "terminalType": "MOVIL",
+      "status": "ACTIVE",
+      "activationCode": "ACT-LB37-6UBK",
+      "deviceToken": "aabefc72bee0c48424113e8c2fd8683d130b2610e5f9cf5f34895c8af7be11a5",
+      "registeredAt": "2026-10-05T17:57:57.501Z",
+      "activatedAt": "2026-10-05T17:57:57.501Z",
+      "lastSeenAt": "2026-10-05T17:57:57.501Z",
+      "deviceName": "Terminal 0003 (Banca Salomón #0003) - Móvil"
+    },
+    {
+      "id": "DEV-TEST-01",
+      "consorcioId": "c-1230",
+      "consorcioCode": "1230",
+      "terminalId": "term-1002",
+      "terminalCode": "1002",
+      "bancaName": "Banca Sucursal #1002",
+      "assignedUsername": "1002",
+      "deviceType": "ANDROID",
+      "terminalType": "MOVIL",
+      "status": "ACTIVE",
+      "activationCode": "ACT-ST01-WFGA",
+      "deviceToken": "b228b0d0bbdb9ac938886e7e4eba48fb500aa806a8620f05cb98bed4a10807e0",
+      "registeredAt": "2026-10-05T18:21:58.271Z",
+      "activatedAt": "2026-10-05T18:21:58.271Z",
+      "lastSeenAt": "2026-10-05T18:21:58.271Z",
+      "deviceName": "Terminal 1002 (Banca Sucursal #1002) - Móvil"
+    },
+    {
+      "id": "DEV-LYGD-73G3",
+      "deviceName": "Banca Central #1001",
+      "terminalCode": "1001",
+      "consorcioId": "c-1230",
+      "deviceType": "PC",
+      "status": "ACTIVE",
+      "ipAddress": "127.0.0.1",
+      "activatedAt": "2026-10-07T13:20:30.751Z",
+      "lastSeenAt": "2026-10-07T13:39:49.984Z",
+      "terminalType": "PC"
+    },
+    {
+      "id": "123D123400",
+      "deviceName": "Banca Salomón #0002",
+      "terminalCode": "0002",
+      "consorcioId": "c-1230",
+      "deviceType": "MOVIL",
+      "status": "ACTIVE",
+      "ipAddress": "127.0.0.1",
+      "activatedAt": "2026-10-07T13:20:41.658Z",
+      "lastSeenAt": "2026-10-07T13:22:13.699Z",
+      "terminalType": "MOVIL"
+    }
+  ],
+  "globalCustomization": {
+    "commercialName": "BancaPro - Plataforma Nacional Multi-Consorcio",
+    "primaryColor": "#16A34A",
+    "secondaryColor": "#0F172A",
+    "bgColor": "#F8FAFC",
+    "ticketHeader": "BANCA DE LOTERÍA LA FAVORITA",
+    "ticketFooter": "Los tickets tienen vigencia de 30 días calendario."
+  },
+  "prizePlans": [
+    {
+      "id": "plan-a",
+      "name": "Plan A",
+      "description": "Tabla Oficial Estándar (60 - 8 - 4)",
+      "consorcioId": "c-1230",
+      "isDefault": true,
+      "quiniela_primera": 60,
+      "quiniela_segunda": 8,
+      "quiniela_tercera": 4,
+      "pale_primera_segunda": 1000,
+      "pale_primera_tercera": 1000,
+      "pale_segunda_tercera": 100,
+      "tripleta_tres": 20000,
+      "tripleta_dos": 100,
+      "super_pale": 3000,
+      "super_pale_allow_inverse": true,
+      "createdAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "plan-b",
+      "name": "Plan B",
+      "description": "Tabla Agresiva Comercial (70 - 8 - 4)",
+      "consorcioId": "c-1230",
+      "isDefault": false,
+      "quiniela_primera": 70,
+      "quiniela_segunda": 8,
+      "quiniela_tercera": 4,
+      "pale_primera_segunda": 1100,
+      "pale_primera_tercera": 1100,
+      "pale_segunda_tercera": 120,
+      "tripleta_tres": 22000,
+      "tripleta_dos": 120,
+      "super_pale": 3200,
+      "super_pale_allow_inverse": true,
+      "createdAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "plan-c",
+      "name": "Plan C",
+      "description": "Tabla Especial Zonas Competitivas (65 - 7 - 3)",
+      "consorcioId": "c-1230",
+      "isDefault": false,
+      "quiniela_primera": 65,
+      "quiniela_segunda": 7,
+      "quiniela_tercera": 3,
+      "pale_primera_segunda": 1050,
+      "pale_primera_tercera": 1050,
+      "pale_segunda_tercera": 100,
+      "tripleta_tres": 20000,
+      "tripleta_dos": 100,
+      "super_pale": 3000,
+      "super_pale_allow_inverse": true,
+      "createdAt": "2026-09-01T00:00:00.000Z"
+    }
+  ],
+  "groups": [
+    {
+      "id": "grp-centro",
+      "consorcioId": "c-1230",
+      "name": "Grupo Centro",
+      "description": "Bancas zona centro y colonial",
+      "status": "ACTIVE",
+      "prizePlanId": "plan-a",
+      "generalDailyCap": 100000,
+      "permissions": {
+        "monitoring": true,
+        "monitoringFunctions": true,
+        "terminals": true,
+        "lotteries": true,
+        "results": false,
+        "topes": true,
+        "prizes": true,
+        "reports": true,
+        "createTerminals": false,
+        "editTerminals": true,
+        "disableTerminals": true
+      },
+      "allowedLotteryIds": [],
+      "terminalIds": [
+        "term-0001",
+        "term-0002",
+        "term-0003"
+      ],
+      "createdAt": "2026-09-26T20:00:00.000Z"
+    },
+    {
+      "id": "grp-este",
+      "consorcioId": "c-1230",
+      "name": "Grupo Este & Charles",
+      "description": "Bancas zona oriental, San Isidro y Las Américas",
+      "status": "ACTIVE",
+      "prizePlanId": "plan-a",
+      "generalDailyCap": 90000,
+      "permissions": {
+        "monitoring": true,
+        "monitoringFunctions": true,
+        "terminals": true,
+        "lotteries": true,
+        "results": false,
+        "topes": true,
+        "prizes": true,
+        "reports": true,
+        "createTerminals": false,
+        "editTerminals": true,
+        "disableTerminals": true
+      },
+      "allowedLotteryIds": [],
+      "terminalIds": [
+        "term-0004",
+        "term-0005",
+        "term-1003",
+        "term-1004"
+      ],
+      "createdAt": "2026-09-26T20:00:00.000Z"
+    },
+    {
+      "id": "grp-norte",
+      "consorcioId": "c-1230",
+      "name": "Grupo Norte & Cibao",
+      "description": "Bancas Santiago, Villa Mella y autopista Duarte",
+      "status": "ACTIVE",
+      "prizePlanId": "plan-a",
+      "generalDailyCap": 80000,
+      "permissions": {
+        "monitoring": true,
+        "monitoringFunctions": true,
+        "terminals": true,
+        "lotteries": true,
+        "results": false,
+        "topes": true,
+        "prizes": true,
+        "reports": true,
+        "createTerminals": false,
+        "editTerminals": true,
+        "disableTerminals": true
+      },
+      "allowedLotteryIds": [],
+      "terminalIds": [
+        "term-1005",
+        "term-1006"
+      ],
+      "createdAt": "2026-09-28T20:00:00.000Z"
+    },
+    {
+      "id": "grp-metro",
+      "consorcioId": "c-1230",
+      "name": "Grupo Metro & Kennedy",
+      "description": "Bancas polígono central, Piantini y Naco",
+      "status": "ACTIVE",
+      "prizePlanId": "plan-a",
+      "generalDailyCap": 70000,
+      "permissions": {
+        "monitoring": true,
+        "monitoringFunctions": true,
+        "terminals": true,
+        "lotteries": true,
+        "results": false,
+        "topes": true,
+        "prizes": true,
+        "reports": true,
+        "createTerminals": false,
+        "editTerminals": true,
+        "disableTerminals": true
+      },
+      "allowedLotteryIds": [],
+      "terminalIds": [
+        "term-1007",
+        "term-1008"
+      ],
+      "createdAt": "2026-09-29T20:00:00.000Z"
+    },
+    {
+      "id": "grp-sur",
+      "consorcioId": "c-1230",
+      "name": "Grupo Sur & Herrera",
+      "description": "Bancas Santo Domingo Oeste, Herrera y San Cristóbal",
+      "status": "ACTIVE",
+      "prizePlanId": "plan-a",
+      "generalDailyCap": 60000,
+      "permissions": {
+        "monitoring": true,
+        "monitoringFunctions": true,
+        "terminals": true,
+        "lotteries": true,
+        "results": false,
+        "topes": true,
+        "prizes": true,
+        "reports": true,
+        "createTerminals": false,
+        "editTerminals": true,
+        "disableTerminals": true
+      },
+      "allowedLotteryIds": [],
+      "terminalIds": [
+        "term-1009",
+        "term-1010"
+      ],
+      "createdAt": "2026-09-30T20:00:00.000Z"
+    }
+  ],
+  "groupSalesCaps": [
+    {
+      "id": "gcap-1",
+      "groupId": "grp-centro",
+      "consorcioId": "c-1230",
+      "terminalCode": "0001",
+      "lotteryId": "lot-real",
+      "lotteryName": "REAL",
+      "playType": "QUINIELA",
+      "number": "05",
+      "maxAmount": 500,
+      "active": true,
+      "createdAt": "2026-09-26T20:00:00.000Z"
+    },
+    {
+      "id": "gcap-2",
+      "groupId": "grp-centro",
+      "consorcioId": "c-1230",
+      "terminalCode": "0001",
+      "lotteryId": "lot-real",
+      "lotteryName": "REAL",
+      "playType": "PALE",
+      "number": "05-10",
+      "maxAmount": 1000,
+      "active": true,
+      "createdAt": "2026-09-26T20:00:00.000Z"
+    },
+    {
+      "id": "gcap-3",
+      "groupId": "grp-centro",
+      "consorcioId": "c-1230",
+      "terminalCode": "0001",
+      "lotteryId": "lot-real",
+      "lotteryName": "REAL",
+      "playType": "TRIPLETA",
+      "number": "05-10-20",
+      "maxAmount": 300,
+      "active": true,
+      "createdAt": "2026-09-26T20:00:00.000Z"
+    },
+    {
+      "id": "gcap-4",
+      "groupId": "grp-centro",
+      "consorcioId": "c-1230",
+      "lotteryName": "REAL + LOTEKA",
+      "playType": "SUPER_PALE",
+      "number": "05-33",
+      "maxAmount": 500,
+      "active": true,
+      "createdAt": "2026-09-26T20:00:00.000Z"
+    }
+  ],
+  "groupAuditLogs": [
+    {
+      "groupId": "grp-mulcisyq-919",
+      "groupName": "Grupo Hack",
+      "consorcioId": "c-1230",
+      "userId": "usr-admin",
+      "userName": "Administrador Central",
+      "action": "Eliminó grupo",
+      "details": "Eliminó el grupo \"Grupo Hack\". Las terminales fueron desvinculadas.",
+      "id": "glog-mulcj0wp-595",
+      "timestamp": "2026-09-28T14:31:52.921Z"
+    },
+    {
+      "groupId": "grp-mulcisyq-919",
+      "groupName": "Grupo Hack",
+      "consorcioId": "c-1230",
+      "userId": "usr-admin",
+      "userName": "Administrador Central",
+      "action": "Creó grupo",
+      "details": "Creó el grupo \"Grupo Hack\" con 0 terminales asignadas y plan de premios \"plan-a\".",
+      "id": "glog-mulcisyq-722",
+      "timestamp": "2026-09-28T14:31:42.626Z"
+    },
+    {
+      "id": "glog-1",
+      "groupId": "grp-centro",
+      "groupName": "Grupo Centro",
+      "consorcioId": "c-1230",
+      "userId": "usr-admin-salomon",
+      "userName": "Admin Salomón",
+      "action": "Modificó tope de venta",
+      "terminalCode": "0001",
+      "lotteryName": "REAL",
+      "number": "05",
+      "oldValue": "RD$500",
+      "newValue": "RD$1,000",
+      "details": "Ajuste de tope Quiniela 05 en REAL para Terminal 0001",
+      "timestamp": "2026-09-27T10:00:00.000Z"
+    }
+  ],
+  "terminalPrinterConfigs": {
+    "1001": {
+      "terminalCode": "1001",
+      "printerName": "POS-58 USB Thermal Printer",
+      "printerType": "USB",
+      "printerConnected": true,
+      "paperWidth": "58mm",
+      "driverType": "RAW_ESCPOS",
+      "ticketFormat": "STANDARD",
+      "printDensity": "NORMAL",
+      "feedLines": 3,
+      "fontMode": "FONT_A",
+      "networkIp": "192.168.1.200",
+      "networkPort": 9100,
+      "defaultPort": "USB001",
+      "baudRate": 9600,
+      "paperCutEnabled": true,
+      "cutCommand": "GS_V_0",
+      "customCutHex": "1D 56 00",
+      "hardwareBrand": "GENERIC_POS",
+      "autoPrintOnSale": false,
+      "printLogo": true,
+      "printQr": true,
+      "printTicketNumber": true,
+      "printDate": true,
+      "printTime": true,
+      "printTerminal": true,
+      "printLotteryName": true,
+      "printPlays": true,
+      "printAmount": true,
+      "printTotal": true,
+      "printFooter": true,
+      "customFooter": "Los tickets tienen vigencia de 30 días calendario. Revise su jugada antes de salir."
+    },
+    "1002": {
+      "terminalCode": "1002",
+      "printerName": "POS-58 USB Thermal Printer",
+      "printerType": "USB",
+      "printerConnected": true,
+      "paperWidth": "58mm",
+      "driverType": "RAW_ESCPOS",
+      "ticketFormat": "STANDARD",
+      "printDensity": "NORMAL",
+      "feedLines": 3,
+      "fontMode": "FONT_A",
+      "networkIp": "192.168.1.200",
+      "networkPort": 9100,
+      "defaultPort": "USB001",
+      "baudRate": 9600,
+      "paperCutEnabled": true,
+      "cutCommand": "GS_V_0",
+      "customCutHex": "1D 56 00",
+      "hardwareBrand": "GENERIC_POS",
+      "autoPrintOnSale": false,
+      "printLogo": true,
+      "printQr": true,
+      "printTicketNumber": true,
+      "printDate": true,
+      "printTime": true,
+      "printTerminal": true,
+      "printLotteryName": true,
+      "printPlays": true,
+      "printAmount": true,
+      "printTotal": true,
+      "printFooter": true,
+      "customFooter": "Los tickets tienen vigencia de 30 días calendario. Revise su jugada antes de salir."
+    }
+  },
+  "systemUpdates": [
+    {
+      "id": "upd-v1.1.0",
+      "version": "v1.1.0",
+      "title": "Actualización Mayor: Módulo de Grupos, Topes Automáticos y Seguridad",
+      "releaseNotes": [
+        "Nueva función de Grupos para organizar terminales por zona y sucursal.",
+        "Planes de premios independientes por grupo (Plan A, Plan B, etc.).",
+        "Topes de venta automáticos con bloqueo preventivo y cálculo de saldo restante.",
+        "Validación estricta de permisos heredados desde el Administrador de Consorcio.",
+        "Mejoras en velocidad de impresión y rendimiento del POS mostrador.",
+        "Correcciones de errores y estabilidad en consultas de tickets."
+      ],
+      "isMandatory": false,
+      "status": "PUBLISHED",
+      "packageUrl": "/packages/bancapro-v1.1.0-release.bundle",
+      "packageHash": "8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4",
+      "packageSizeBytes": 4892014,
+      "publishedBy": "Súper Administrador",
+      "publishedAt": "2026-09-28T06:00:00.000Z",
+      "minSupportedVersion": "v1.0.0",
+      "downloadCount": 4
+    },
+    {
+      "id": "upd-v1.0.0",
+      "version": "v1.0.0",
+      "title": "Lanzamiento Inicial del Sistema BancaPro RD",
+      "releaseNotes": [
+        "Puntos de venta (POS) táctil y mostrador de alta velocidad.",
+        "Emisión y validación de tickets de Quiniela, Palé, Tripleta y Súper Palé.",
+        "Liquidación automática de premios y control de dispositivos autorizados.",
+        "Facturación mensual automatizada para consorcios."
+      ],
+      "isMandatory": true,
+      "status": "INACTIVE",
+      "packageUrl": "/packages/bancapro-v1.0.0-release.bundle",
+      "packageHash": "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e",
+      "packageSizeBytes": 4210940,
+      "publishedBy": "Súper Administrador",
+      "publishedAt": "2026-09-01T08:00:00.000Z",
+      "minSupportedVersion": "v1.0.0",
+      "downloadCount": 15
+    }
+  ],
+  "systemBackups": [
+    {
+      "id": "bck-muld3tsl-788",
+      "filename": "bancapro-backup-v1.1.0-2026-09-28T14-48-03-477Z.json",
+      "version": "v1.1.0",
+      "createdAt": "2026-09-28T14:48:03.477Z",
+      "createdBy": "Súper Administrador",
+      "sizeBytes": 42077,
+      "description": "Test Snapshot pre-deploy",
+      "recordsCount": {
+        "tickets": 10,
+        "terminals": 7,
+        "consorcios": 1,
+        "groups": 1,
+        "salesCaps": 6
+      }
+    },
+    {
+      "id": "bck-initial-v1.0",
+      "filename": "bancapro-backup-v1.0.0-preupdate.json",
+      "version": "v1.0.0",
+      "createdAt": "2026-09-27T23:50:00.000Z",
+      "createdBy": "Súper Administrador",
+      "sizeBytes": 28400,
+      "description": "Respaldo automático de seguridad previo al despliegue de v1.1.0",
+      "recordsCount": {
+        "tickets": 8,
+        "terminals": 7,
+        "consorcios": 1,
+        "groups": 1,
+        "salesCaps": 4
+      }
+    }
+  ],
+  "deviceAuditLogs": [
+    {
+      "id": "dlog-init-1",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "DEV-8F42-K29X",
+      "terminalCode": "1001",
+      "bancaName": "Banca Central #1001",
+      "consorcioId": "c-1230",
+      "action": "ACTIVÓ TERMINAL",
+      "timestamp": "2026-09-26T20:00:00.000Z",
+      "previousState": "PENDIENTE",
+      "newState": "ACTIVO",
+      "ip": "192.168.1.1",
+      "details": "Activación inicial autorizada por el administrador"
+    },
+    {
+      "id": "dlog-init-2",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "123D123400",
+      "terminalCode": "0001",
+      "bancaName": "Banca Salomón #0001",
+      "consorcioId": "c-1230",
+      "action": "ACTIVÓ TERMINAL",
+      "timestamp": "2026-09-26T20:05:00.000Z",
+      "previousState": "PENDIENTE",
+      "newState": "ACTIVO",
+      "ip": "192.168.1.1",
+      "details": "Vinculación de terminal portátil Android"
+    },
+    {
+      "id": "dlog-1790768222857-afs5",
+      "timestamp": "2026-09-30T11:37:02.857Z",
+      "adminUsername": "sistema",
+      "adminName": "Registro Automático",
+      "deviceId": "123D654592",
+      "consorcioId": "c-1230",
+      "action": "SOLICITUD_ACTIVACION",
+      "previousState": "NO_REGISTRADO",
+      "newState": "PENDIENTE",
+      "details": "Dispositivo nuevo solicitó activación (PC / Web)"
+    },
+    {
+      "id": "dlog-1790769633769-q6v9",
+      "timestamp": "2026-09-30T12:00:33.769Z",
+      "adminUsername": "sistema",
+      "adminName": "Registro Automático",
+      "deviceId": "DEV-8F42-K29X",
+      "consorcioId": "c-1230",
+      "action": "SOLICITUD_ACTIVACION",
+      "previousState": "NO_REGISTRADO",
+      "newState": "PENDIENTE",
+      "details": "Dispositivo nuevo solicitó activación (Android 13 (POS Sunmi V2s))"
+    },
+    {
+      "id": "dlog-1790769633782-f801",
+      "timestamp": "2026-09-30T12:00:33.782Z",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "DEV-8F42-K29X",
+      "terminalCode": "0003",
+      "bancaName": "Banca Salomón #0003",
+      "consorcioId": "c-1230",
+      "action": "ACTIVÓ TERMINAL",
+      "previousState": "PENDING",
+      "newState": "ACTIVO",
+      "ip": "127.0.0.1",
+      "details": "Asignado a terminal 0003 (Usuario: 0003). Código de activación generado: ACT-K29X-BWVU"
+    },
+    {
+      "id": "dlog-1790769633784-0o6g",
+      "timestamp": "2026-09-30T12:00:33.784Z",
+      "adminUsername": "cajero",
+      "adminName": "Terminal 0003",
+      "deviceId": "DEV-8F42-K29X",
+      "terminalCode": "0003",
+      "bancaName": "Banca Salomón #0003",
+      "consorcioId": "c-1230",
+      "action": "CONFIRMÓ ACTIVACIÓN",
+      "previousState": "ACTIVE",
+      "newState": "ACTIVO",
+      "details": "Código de activación validado exitosamente en el dispositivo"
+    },
+    {
+      "id": "dlog-1790769633790-ms46",
+      "timestamp": "2026-09-30T12:00:33.790Z",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "DEV-8F42-K29X",
+      "terminalCode": "0003",
+      "bancaName": "Banca Los Prados #0003",
+      "consorcioId": "c-1230",
+      "action": "DESACTIVÓ TERMINAL",
+      "previousState": "ACTIVE",
+      "newState": "INACTIVO",
+      "ip": "127.0.0.1",
+      "details": "Prueba de desactivación por mantenimiento"
+    },
+    {
+      "id": "dlog-1790769633795-o2fl",
+      "timestamp": "2026-09-30T12:00:33.795Z",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "DEV-8F42-K29X",
+      "terminalCode": "0003",
+      "bancaName": "Banca Los Prados #0003",
+      "consorcioId": "c-1230",
+      "action": "BLOQUEÓ TERMINAL",
+      "previousState": "INACTIVE",
+      "newState": "BLOQUEADO",
+      "ip": "127.0.0.1",
+      "details": "Alerta de robo de equipo"
+    },
+    {
+      "id": "dlog-1790769633801-zaf8",
+      "timestamp": "2026-09-30T12:00:33.801Z",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "DEV-8F42-K29X",
+      "terminalCode": "0003",
+      "bancaName": "Banca Los Prados #0003",
+      "consorcioId": "c-1230",
+      "action": "REACTIVÓ TERMINAL",
+      "previousState": "BLOQUEADO",
+      "newState": "ACTIVO",
+      "ip": "127.0.0.1",
+      "details": "Reactivación autorizada por el administrador"
+    },
+    {
+      "id": "dlog-1791222929134-v7f5",
+      "timestamp": "2026-10-05T17:55:29.134Z",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "DEV-8F42-K29X",
+      "terminalCode": "0001",
+      "bancaName": "Banca Salomón #0001",
+      "consorcioId": "c-1230",
+      "action": "CAMBIO_TIPO_TERMINAL",
+      "previousState": "💻 PC",
+      "newState": "📱 Móvil",
+      "previousType": "PC",
+      "newType": "MOVIL",
+      "details": "Cambio de tipo de terminal para #0001 (Banca Salomón #0001): 💻 PC ➔ 📱 Móvil. Realizado por Consorcio de Bancas Salomón."
+    },
+    {
+      "id": "dlog-1791222929141-kd2b",
+      "timestamp": "2026-10-05T17:55:29.141Z",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "DEV-8F42-K29X",
+      "terminalCode": "0001",
+      "bancaName": "Banca Salomón #0001",
+      "consorcioId": "c-1230",
+      "action": "CAMBIO_TIPO_TERMINAL",
+      "previousState": "📱 Móvil",
+      "newState": "💻 PC",
+      "previousType": "MOVIL",
+      "newType": "PC",
+      "details": "Cambio de tipo de terminal para #0001 (Banca Salomón #0001): 📱 Móvil ➔ 💻 PC. Realizado por Consorcio de Bancas Salomón."
+    },
+    {
+      "id": "dlog-1791222934710-3lxm",
+      "timestamp": "2026-10-05T17:55:34.710Z",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "DEV-TEST-PC",
+      "terminalCode": "0005",
+      "bancaName": "Banca Salomón #0005",
+      "consorcioId": "c-1230",
+      "action": "ACTIVÓ TERMINAL",
+      "previousState": "NO_REGISTRADO",
+      "newState": "ACTIVO",
+      "previousType": "PC",
+      "newType": "PC",
+      "ip": "127.0.0.1",
+      "details": "Terminal #0005 (Banca Salomón #0005) activada exitosamente vinculada al Consorcio Consorcio de Bancas Salomón. Tipo: 💻 Versión PC, Usuario: 0005. Código de activación generado: ACT-STPC-QRRJ"
+    },
+    {
+      "id": "dlog-1791223016120-rk5w",
+      "timestamp": "2026-10-05T17:56:56.120Z",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "DEV-8F42-K29X",
+      "terminalCode": "0003",
+      "bancaName": "Banca Salomón #0003",
+      "consorcioId": "c-1230",
+      "action": "REEMPLAZO_DISPOSITIVO",
+      "previousState": "ACTIVE",
+      "newState": "INACTIVO",
+      "previousType": "PC",
+      "newType": "MOVIL",
+      "ip": "152.167.87.108, 169.254.169.126",
+      "details": "Reemplazado por el nuevo dispositivo DEV-VB8L-7CKT configurado como 📱 Móvil"
+    },
+    {
+      "id": "dlog-1791223016120-vz9w",
+      "timestamp": "2026-10-05T17:56:56.120Z",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "DEV-VB8L-7CKT",
+      "terminalCode": "0003",
+      "bancaName": "Banca Salomón #0003",
+      "consorcioId": "c-1230",
+      "action": "ACTIVÓ TERMINAL",
+      "previousState": "NO_REGISTRADO",
+      "newState": "ACTIVO",
+      "previousType": "PC",
+      "newType": "MOVIL",
+      "ip": "152.167.87.108, 169.254.169.126",
+      "details": "Terminal #0003 (Banca Salomón #0003) activada exitosamente vinculada al Consorcio Consorcio de Bancas Salomón. Tipo: 📱 Versión Móvil, Usuario: 0003. Código de activación generado: ACT-7CKT-AMA6"
+    },
+    {
+      "id": "dlog-1791223077501-6ffw",
+      "timestamp": "2026-10-05T17:57:57.501Z",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "DEV-VB8L-7CKT",
+      "terminalCode": "0003",
+      "bancaName": "Banca Salomón #0003",
+      "consorcioId": "c-1230",
+      "action": "REEMPLAZO_DISPOSITIVO",
+      "previousState": "ACTIVE",
+      "newState": "INACTIVO",
+      "previousType": "MOVIL",
+      "newType": "MOVIL",
+      "ip": "152.167.87.108, 169.254.169.126",
+      "details": "Reemplazado por el nuevo dispositivo DEV-F9HY-LB37 configurado como 📱 Móvil"
+    },
+    {
+      "id": "dlog-1791223077501-u5we",
+      "timestamp": "2026-10-05T17:57:57.501Z",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "deviceId": "DEV-F9HY-LB37",
+      "terminalCode": "0003",
+      "bancaName": "Banca Salomón #0003",
+      "consorcioId": "c-1230",
+      "action": "ACTIVÓ TERMINAL",
+      "previousState": "NO_REGISTRADO",
+      "newState": "ACTIVO",
+      "previousType": "MOVIL",
+      "newType": "MOVIL",
+      "ip": "152.167.87.108, 169.254.169.126",
+      "details": "Terminal #0003 (Banca Salomón #0003) activada exitosamente vinculada al Consorcio Consorcio de Bancas Salomón. Tipo: 📱 Versión Móvil, Usuario: 0003. Código de activación generado: ACT-LB37-6UBK"
+    },
+    {
+      "id": "dlog-1791224518271-3r6r",
+      "timestamp": "2026-10-05T18:21:58.271Z",
+      "adminUsername": "admin",
+      "adminName": "Administrador Central",
+      "deviceId": "DEV-TEST-01",
+      "terminalCode": "1002",
+      "bancaName": "Banca Sucursal #1002",
+      "consorcioId": "c-1230",
+      "action": "ACTIVÓ TERMINAL",
+      "previousState": "NO_REGISTRADO",
+      "newState": "ACTIVO",
+      "previousType": "PC",
+      "newType": "MOVIL",
+      "ip": "127.0.0.1",
+      "details": "Terminal #1002 (Banca Sucursal #1002) activada exitosamente vinculada al Consorcio Consorcio de Bancas Salomón. Tipo: 📱 Versión Móvil, Usuario: 1002. Código de activación generado: ACT-ST01-WFGA"
+    }
+  ],
+  "salesAuditLogs": [
+    {
+      "id": "sa-log-1",
+      "timestamp": "2026-10-02T13:41:11.960Z",
+      "consorcioId": "c-1230",
+      "adminUsername": "salomon",
+      "adminName": "Consorcio de Bancas Salomón",
+      "terminalCode": "0001",
+      "bancaName": "Banca Salomón #0001",
+      "ticketNumber": "000125",
+      "operation": "PAGO_PREMIO",
+      "previousValue": "GANADOR (RD$2,000 pendiente)",
+      "newValue": "PAGADO (RD$2,000)",
+      "details": "Cobro de premio verificado en terminal #0001"
+    },
+    {
+      "id": "sa-log-2",
+      "timestamp": "2026-10-02T11:41:11.960Z",
+      "consorcioId": "c-1230",
+      "adminUsername": "0004",
+      "adminName": "Terminal 0004",
+      "terminalCode": "0004",
+      "bancaName": "Banca Salomón #0004",
+      "ticketNumber": "000402",
+      "operation": "ANULACION_TICKET",
+      "previousValue": "VIGENTE (RD$400)",
+      "newValue": "ANULADO (RD$0)",
+      "details": "Anulación solicitada por el cliente antes del sorteo"
+    }
+  ],
+  "adminAuditLogs": [
+    {
+      "userId": "Súper Administrador",
+      "userName": "Súper Administrador",
+      "userRole": "ADMIN",
+      "consorcioId": "c-1230",
+      "consorcioName": "Consorcio de Bancas Salomón",
+      "action": "MODIFICAR_TOPES_PAGO",
+      "details": "Topes de pago financiero actualizados para Consorcio de Bancas Salomón: Quiniela RD$360,000 (ticket: RD$65,000), Palé RD$850,000 (comb: RD$320,000), Tripleta RD$1,600,000 (comb: RD$650,000). Acción: BLOCK_SALES.",
+      "previousValue": "{\"qDraw\":350000,\"pDraw\":800000,\"tDraw\":1500000}",
+      "newValue": "{\"qDraw\":360000,\"pDraw\":850000,\"tDraw\":1600000}",
+      "id": "a-audit-1790959616279-f00d",
+      "timestamp": "2026-10-02T16:46:56.279Z"
+    },
+    {
+      "id": "a-audit-1",
+      "timestamp": "2026-09-30T14:30:00.000Z",
+      "userId": "usr-superadmin",
+      "userName": "Súper Administrador",
+      "userRole": "SUPER_ADMIN",
+      "consorcioId": "c-1230",
+      "consorcioName": "Consorcio de Bancas Salomón",
+      "action": "ASIGNAR_PERMISO",
+      "targetUserId": "usr-admin-salomon",
+      "targetUserName": "salomon",
+      "permissionKey": "pagoPremios",
+      "previousValue": "INACTIVO",
+      "newValue": "ACTIVO",
+      "details": "Súper Admin asignó permiso \"Pago de premios\" al Administrador del Consorcio Salomón.",
+      "ip": "190.166.45.12",
+      "device": "Chrome on Windows 11 Desktop (PC)"
+    },
+    {
+      "id": "a-audit-2",
+      "timestamp": "2026-09-29T11:15:00.000Z",
+      "userId": "usr-superadmin",
+      "userName": "Súper Administrador",
+      "userRole": "SUPER_ADMIN",
+      "consorcioId": "c-1230",
+      "consorcioName": "Consorcio de Bancas Salomón",
+      "action": "REVOCAR_PERMISO",
+      "targetUserId": "usr-admin-salomon",
+      "targetUserName": "salomon",
+      "permissionKey": "configuracionSistema",
+      "previousValue": "ACTIVO",
+      "newValue": "INACTIVO",
+      "details": "Súper Admin retiró permiso \"Configuración del Sistema\" al Administrador del Consorcio Salomón.",
+      "ip": "190.166.45.12",
+      "device": "Chrome on Windows 11 Desktop (PC)"
+    },
+    {
+      "id": "a-audit-3",
+      "timestamp": "2026-09-28T16:00:00.000Z",
+      "userId": "usr-superadmin",
+      "userName": "Súper Administrador",
+      "userRole": "SUPER_ADMIN",
+      "consorcioId": "c-1230",
+      "consorcioName": "Consorcio de Bancas Salomón",
+      "action": "ASIGNAR_PERMISO",
+      "targetUserId": "usr-admin-salomon",
+      "targetUserName": "salomon",
+      "permissionKey": "anulaciones",
+      "previousValue": "INACTIVO",
+      "newValue": "ACTIVO",
+      "details": "Súper Admin asignó permiso \"Anulación de Tickets\" al Administrador del Consorcio Salomón.",
+      "ip": "190.166.45.12",
+      "device": "Chrome on Windows 11 Desktop (PC)"
+    }
+  ]
+}

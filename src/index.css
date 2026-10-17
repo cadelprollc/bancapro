@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Hide scrollbars for fast horizontal tab bars */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Sleek modern custom scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.35);
+    border-radius: 9999px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.6);
+  }
+}
+
+:root {
+  --bg-primary: #f8fafc;
+  --bg-surface: #ffffff;
+  --border-color: #e2e8f0;
+  --text-main: #0f172a;
+}
+
+.dark {
+  --bg-primary: #070d18;
+  --bg-surface: #0f1c34;
+  --border-color: #1e3156;
+  --text-main: #f8fafc;
+}
+
+body {
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ocultar el contenedor dinámico de ticket en pantalla normal */
+body > #printable-ticket {
+  display: none !important;
+}
+
+@media print {
+  @page {
+    size: auto;
+    margin: 0mm;
+  }
+
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  /* Solo cuando se imprime un ticket térmico específico */
+  body.ticket-modal-open,
+  body.printing-ticket {
+    width: 58mm !important;
+    max-width: 58mm !important;
+  }
+
+  body.ticket-modal-open *,
+  body.printing-ticket * {
+    visibility: hidden;
+  }
+
+  body.ticket-modal-open #printable-ticket,
+  body.ticket-modal-open #printable-ticket *,
+  body.printing-ticket #printable-ticket,
+  body.printing-ticket #printable-ticket * {
+    visibility: visible !important;
+  }
+
+  body.ticket-modal-open #printable-ticket,
+  body.printing-ticket #printable-ticket {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 58mm !important;
+    max-width: 58mm !important;
+    margin: 0 !important;
+    padding: 1.5mm !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+}

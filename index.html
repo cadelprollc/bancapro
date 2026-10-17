@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BancaPro - Sistema de Lotería Dominicana</title>
+    <meta name="description" content="Plataforma profesional para la venta de tickets de lotería dominicana, gestión de terminales, loterías, topes de venta y cálculo automático de ganadores." />
+    <meta property="og:title" content="BancaPro - Sistema de Lotería Dominicana" />
+    <meta property="og:description" content="Plataforma profesional para la venta de tickets de lotería dominicana, gestión de terminales, loterías, topes de venta y cálculo automático de ganadores." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Gracefully suppress harmless Vite HMR WebSocket connection errors in iframe environment
+      window.addEventListener('error', function(event) {
+        var msg = (event && event.message) ? String(event.message) : '';
+        var src = (event && event.filename) ? String(event.filename) : '';
+        if (msg.indexOf('WebSocket') !== -1 || msg.indexOf('vite') !== -1 || src.indexOf('@vite/client') !== -1) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(event) {
+        var reason = (event && event.reason) ? String(event.reason) : '';
+        if (reason.indexOf('WebSocket') !== -1 || reason.indexOf('vite') !== -1 || reason.indexOf('@vite/client') !== -1) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      }, true);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

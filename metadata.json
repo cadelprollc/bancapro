@@ -1,0 +1,6 @@
+{
+  "name": "BancaPro - Sistema de Lotería Dominicana",
+  "description": "Plataforma profesional para la venta de tickets de lotería dominicana, gestión de terminales, loterías, topes de venta y cálculo automático de ganadores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
